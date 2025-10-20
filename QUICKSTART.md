@@ -8,10 +8,11 @@ This is a **full test project** for ArcKit demonstrating all features with a rea
 
 ## Test Scenario
 
-**Project**: Benefits Eligibility Chatbot for Department for Work and Pensions (DWP)
-- **Type**: HIGH-RISK AI system using GPT-4
-- **Users**: Citizens seeking benefits advice
-- **Compliance**: TCoP, AI Playbook, ATRS required
+**Project**: AI-Powered Patent Prior Art Search System for UK Intellectual Property Office (IPO)
+- **Type**: HIGH-RISK AI system (affects patent grant decisions and legal rights)
+- **Scope**: ML system using NLP/semantic search for global patent databases
+- **Purpose**: Suggest prior art for patent examiners to improve patent quality
+- **Compliance**: TCoP, AI Playbook, ATRS, UK GDPR, explainability for legal challenges
 - **Procurement**: Via G-Cloud Digital Marketplace
 
 ---
@@ -38,7 +39,7 @@ uv pip install git+https://github.com/tractorjuice/arc-kit.git
 # Check commands installed
 ls -1 .claude/commands/
 
-# Should show 14 commands:
+# Should show 16 commands:
 # - arckit.principles.md
 # - arckit.requirements.md
 # - arckit.wardley.md
@@ -144,7 +145,7 @@ tree projects/
 wc -l projects/001-benefits-chatbot/*.md
 
 # Check command count
-ls -1 .claude/commands/ | wc -l  # Should be 14
+ls -1 .claude/commands/ | wc -l  # Should be 16
 
 # Check template count
 ls -1 .arckit/templates/ | wc -l  # Should be 19
@@ -196,7 +197,7 @@ For detailed test plan with expected outputs and success criteria, see:
 
 - **ArcKit Issues**: https://github.com/tractorjuice/arc-kit/issues
 - **ArcKit Documentation**: https://github.com/tractorjuice/arc-kit
-- **Latest Release**: https://github.com/tractorjuice/arc-kit/releases/tag/v0.3.0
+- **Latest Release**: https://github.com/tractorjuice/arc-kit/releases/tag/v0.2.1
 
 ---
 
