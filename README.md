@@ -19,18 +19,19 @@
 
 ## 📋 Test Scenario
 
-**Project**: Benefits Eligibility Chatbot for UK Department for Work and Pensions (DWP)
+**Project**: AI-Powered Patent Prior Art Search System for UK Intellectual Property Office (IPO)
 
 **Details**:
-- **System**: HIGH-RISK AI chatbot using GPT-4
-- **Purpose**: Answer citizen questions about Universal Credit, JSA, disability benefits
-- **Requirements**: 10K concurrent users, UK GDPR, WCAG 2.2 AA, human-in-the-loop
-- **Compliance**: Technology Code of Practice, AI Playbook, ATRS required
-- **Procurement**: Via G-Cloud Digital Marketplace (£1.5M, 9 months)
+- **System**: HIGH-RISK AI system (affects patent grant decisions and legal rights)
+- **Scope**: Machine learning system using NLP and semantic search for global patent databases
+- **Purpose**: Suggest prior art for patent examiners to improve patent quality
+- **Requirements**: TCoP compliance, AI Playbook, ATRS, UK GDPR, explainability for legal challenges
+- **Compliance**: Patent data security (OFFICIAL-SENSITIVE), transparency requirements
+- **Procurement**: Via G-Cloud Digital Marketplace
 
 ---
 
-## ✅ Pre-Installed Commands (14 total)
+## ✅ Pre-Installed Commands (16 total)
 
 All commands ready in `.claude/commands/`:
 
@@ -150,7 +151,7 @@ Plus analysis report from `/arckit.analyze` showing governance health score (B g
 ## 📖 More Information
 
 - **ArcKit Repository**: https://github.com/tractorjuice/arc-kit
-- **Latest Release**: v0.3.0 - ServiceNow Service Management Edition
+- **Latest Release**: v0.2.1
 - **Issues**: https://github.com/tractorjuice/arc-kit/issues
 
 ---
