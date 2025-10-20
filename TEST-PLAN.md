@@ -6,13 +6,14 @@
 
 ---
 
-## Test Scenario: UK Government AI Chatbot Project
+## Test Scenario: UK Intellectual Property Office Patent Search AI System
 
-We'll test all ArcKit commands by simulating a realistic UK Government project:
+We'll test all ArcKit commands by simulating a realistic IP innovation project:
 
-**Project**: Benefits Eligibility Chatbot for Department for Work and Pensions (DWP)
-**Type**: HIGH-RISK AI system (affects access to benefits)
-**Requirements**: TCoP compliance, AI Playbook compliance, ATRS publication
+**Project**: AI-Powered Patent Prior Art Search System for UK Intellectual Property Office (IPO)
+**Type**: HIGH-RISK AI system (affects patent grant decisions and legal rights)
+**Scope**: Machine learning system to search global patent databases and suggest prior art for patent examiners, using NLP and semantic search
+**Requirements**: TCoP compliance, AI Playbook compliance, ATRS publication, UK GDPR, patent data security (OFFICIAL-SENSITIVE), explainability for legal challenges
 
 ---
 
