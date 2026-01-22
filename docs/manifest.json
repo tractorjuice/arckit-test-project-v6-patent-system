@@ -18,6 +18,11 @@
       "name": "Patent Management System for IPO",
       "documents": [
         {
+          "path": "projects/001-patent-management-system-for-the-intellectual-property-office/stakeholder-drivers.md",
+          "title": "Stakeholder Drivers & Goals",
+          "category": "Discovery"
+        },
+        {
           "path": "projects/001-patent-management-system-for-the-intellectual-property-office/requirements.md",
           "title": "Requirements",
           "category": "Discovery"
