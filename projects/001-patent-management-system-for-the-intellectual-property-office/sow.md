@@ -1,15 +1,48 @@
 # Statement of Work (SOW): Patent Management System for the UK Intellectual Property Office
 
-**Document Type**: Request for Proposal (RFP) / Statement of Work
-**Project ID**: 001
-**Version**: 1.0
-**Issue Date**: 2025-10-15
-**Submission Deadline**: 2025-11-30 17:00 GMT
-**Contract Award Date**: 2026-01-15
-**Contract Start Date**: 2026-02-01
-**Status**: OPEN FOR TENDER
-**Contracting Authority**: UK Intellectual Property Office (IPO)
-**Procurement Framework**: G-Cloud 14 Framework
+> **Template Status**: Live | **Version**: 0.11.2 | **Command**: `/arckit.sow`
+
+## Document Control
+
+| Field | Value |
+|-------|-------|
+| **Document ID** | ARC-001-SOW-v2.0 |
+| **Document Type** | Statement of Work / Request for Proposal (RFP) |
+| **Project** | Patent Management System for the UK Intellectual Property Office (Project 001) |
+| **Classification** | OFFICIAL |
+| **Status** | OPEN FOR TENDER |
+| **Version** | 2.0 |
+| **Created Date** | 2025-10-15 |
+| **Last Modified** | 2026-01-26 |
+| **Review Cycle** | On-Demand |
+| **Next Review Date** | 2026-02-28 |
+| **Owner** | Tim Moss (Senior Responsible Owner) |
+| **Reviewed By** | [PENDING] |
+| **Approved By** | [PENDING] |
+| **Distribution** | Procurement Team, Architecture Team, Digital Marketplace |
+
+## Revision History
+
+| Version | Date | Author | Changes | Approved By | Approval Date |
+|---------|------|--------|---------|-------------|---------------|
+| 1.0 | 2025-10-15 | ArcKit AI | Initial creation from `/arckit.sow` command | [PENDING] | [PENDING] |
+| 2.0 | 2026-01-26 | ArcKit AI | Updated to template v0.11.2 format; aligned with requirements.md v2.0 | [PENDING] | [PENDING] |
+
+## Document Purpose
+
+This Statement of Work (SOW) defines the requirements, deliverables, evaluation criteria, and contract terms for the procurement of a modern Patent Management System. It serves as the Request for Proposal (RFP) document for vendor procurement via G-Cloud 14 Framework.
+
+---
+
+## Procurement Details
+
+| Field | Value |
+|-------|-------|
+| **Contracting Authority** | UK Intellectual Property Office (IPO) |
+| **Procurement Framework** | G-Cloud 14 Framework |
+| **Submission Deadline** | 2025-11-30 17:00 GMT |
+| **Contract Award Date** | 2026-01-15 |
+| **Contract Start Date** | 2026-02-01 |
 
 ---
 
@@ -22,7 +55,7 @@ The UK Intellectual Property Office (IPO) seeks a qualified supplier to design, 
 The current patent infrastructure relies on legacy systems developed over 20+ years, resulting in fragmented workflows, processing delays, and limited integration with international patent offices. This modernization initiative will replace these systems with a cloud-native, API-first platform that delivers:
 
 - **Operational Efficiency**: Reduce average time to first office action from 18 months to 12 months
-- **Cost Savings**: Achieve £2M annual operational savings through cloud optimization and automation
+- **Cost Savings**: Achieve Â£1.75M annual operational savings through cloud optimization and automation
 - **International Integration**: Seamless data exchange with WIPO, EPO, and IP5 offices using WIPO ST.96 standards
 - **Public Service Excellence**: 99.95% availability for public-facing services with WCAG 2.2 Level AA accessibility
 - **Regulatory Compliance**: Full compliance with UK Government Technology Code of Practice, GDPR, and OFFICIAL-SENSITIVE security classification
@@ -35,7 +68,7 @@ By improving processing efficiency, reducing examination backlogs from 15,000 to
 
 ### Contract Value and Duration
 
-- **Total Contract Value**: £7,000,000 (inclusive of all costs)
+- **Total Contract Value**: ï¿½7,000,000 (inclusive of all costs)
 - **Contract Duration**: 18 months (from contract signature to go-live)
 - **Implementation Timeline**: 14 months development + 4 months transition/stabilization
 - **Warranty Period**: 90 days post-go-live (defect remediation at no additional cost)
@@ -43,7 +76,7 @@ By improving processing efficiency, reducing examination backlogs from 15,000 to
 
 ### Budget Breakdown
 
-| Category | Amount (£) |
+| Category | Amount (ï¿½) |
 |----------|-----------|
 | Development & Implementation | 3,500,000 |
 | Architecture & Design | 400,000 |
@@ -227,7 +260,7 @@ The supplier must deliver the following artifacts:
 - **Unit Tests**: Minimum 80% code coverage with automated execution in CI/CD
 - **Integration Tests**: Component interaction tests with databases, message queues, external APIs
 - **Contract Tests**: API contract validation between microservices
-- **End-to-End Tests**: Critical patent workflows (file ’ classify ’ search ’ examine ’ grant)
+- **End-to-End Tests**: Critical patent workflows (file ï¿½ classify ï¿½ search ï¿½ examine ï¿½ grant)
 - **Performance Test Results**: Load testing reports for peak capacity (500 concurrent filers, 1000 searches/min)
 - **Security Test Results**: SAST/DAST scan results, penetration test (ITHC) report
 - **Accessibility Test Results**: WCAG 2.2 Level AA compliance report with manual audit
@@ -547,10 +580,10 @@ Suppliers MUST demonstrate the following qualifications. Failure to meet any man
 
 #### 4.1.7 Financial Standing
 - [ ] Company audited financial statements for last 2 years
-- [ ] Minimum annual turnover of £15M (or parent company guarantee)
-- [ ] Professional indemnity insurance of £10M
-- [ ] Employer's liability insurance of £10M
-- [ ] Public liability insurance of £10M
+- [ ] Minimum annual turnover of ï¿½15M (or parent company guarantee)
+- [ ] Professional indemnity insurance of ï¿½10M
+- [ ] Employer's liability insurance of ï¿½10M
+- [ ] Public liability insurance of ï¿½10M
 
 #### 4.1.8 Personnel Security
 - [ ] Commitment to BPSS clearance for all personnel accessing IPO systems
@@ -584,7 +617,7 @@ Proposals MUST be submitted in the following format:
 **Page Limit**: Maximum 100 pages (excluding appendices)
 **Font**: Arial 11pt, 1.5 line spacing
 **Language**: English (UK)
-**Currency**: British Pounds Sterling (£)
+**Currency**: British Pounds Sterling (ï¿½)
 
 ### 5.2 Proposal Structure
 
@@ -711,11 +744,11 @@ Proposals will be evaluated using a **60% Technical / 40% Cost** weighted scorin
 
 **Stage 3: Cost Evaluation (40 points)**
 - Lowest compliant bid = 40 points
-- Other bids scored proportionally: (Lowest Price / Bid Price) × 40
+- Other bids scored proportionally: (Lowest Price / Bid Price) ï¿½ 40
 
 **Stage 4: Shortlist Presentations**
 - Top 3-5 scoring bidders invited for presentations (2-hour session)
-- Presentations may adjust technical scores by ±10%
+- Presentations may adjust technical scores by ï¿½10%
 
 **Stage 5: Contract Award**
 - Highest combined score (Technical + Cost) wins contract
@@ -776,13 +809,13 @@ Proposals will be evaluated using a **60% Technical / 40% Cost** weighted scorin
 
 **Scoring Formula**:
 ```
-Cost Score = (Lowest Bid Price / Supplier Bid Price) × 40 points
+Cost Score = (Lowest Bid Price / Supplier Bid Price) ï¿½ 40 points
 ```
 
 **Example**:
-- Supplier A bids £7,000,000 ’ Cost Score = (7M / 7M) × 40 = 40 points
-- Supplier B bids £8,500,000 ’ Cost Score = (7M / 8.5M) × 40 = 32.94 points
-- Supplier C bids £6,500,000 ’ Cost Score = (6.5M / 6.5M) × 40 = 40 points (new lowest)
+- Supplier A bids ï¿½7,000,000 ï¿½ Cost Score = (7M / 7M) ï¿½ 40 = 40 points
+- Supplier B bids ï¿½8,500,000 ï¿½ Cost Score = (7M / 8.5M) ï¿½ 40 = 32.94 points
+- Supplier C bids ï¿½6,500,000 ï¿½ Cost Score = (6.5M / 6.5M) ï¿½ 40 = 40 points (new lowest)
 
 ### 6.4 Award Decision
 
@@ -807,7 +840,7 @@ IPO reserves the right to:
 
 Payments will be made against milestone completion with IPO acceptance. All milestones require formal sign-off by IPO Product Owner and Technical Architect.
 
-| Milestone | Deliverables | % of Contract | Payment (£) | Target Date |
+| Milestone | Deliverables | % of Contract | Payment (ï¿½) | Target Date |
 |-----------|--------------|---------------|-------------|-------------|
 | **M0: Contract Signature** | Signed contract, project kick-off | 5% | 350,000 | 2026-02-01 |
 | **M1: Requirements Review Gate** | Requirements review document, user stories, service blueprint, Gate 1 approval | 5% | 350,000 | 2026-02-28 |
@@ -846,7 +879,7 @@ Each milestone requires:
 
 Suppliers MUST provide day rates for optional 24-month post-implementation support:
 
-| Support Level | Response Time | Resolution Time | Required FTE | Day Rate (£) |
+| Support Level | Response Time | Resolution Time | Required FTE | Day Rate (ï¿½) |
 |---------------|---------------|-----------------|--------------|--------------|
 | **L1 Support** | 15 minutes (business hours) | 4 hours (P1), 24 hours (P2) | 1 FTE | [Supplier to quote] |
 | **L2 Support** | 30 minutes | 24 hours (P1), 5 days (P2) | 0.5 FTE | [Supplier to quote] |
@@ -876,25 +909,25 @@ Suppliers MUST provide day rates for optional 24-month post-implementation suppo
 **Performance Warranty**: Supplier warrants that the solution will meet all functional and non-functional requirements specified in this SOW for 90 days post-go-live.
 
 **Defect Remediation**: During warranty period, supplier will remediate defects at no additional cost:
-- **P1 (Critical)**: System down, data loss ’ 4-hour response, 24-hour resolution
-- **P2 (High)**: Major function unavailable ’ 8-hour response, 5-day resolution
-- **P3 (Medium)**: Minor function issue ’ 24-hour response, 30-day resolution
-- **P4 (Low)**: Cosmetic issue ’ 48-hour response, 90-day resolution
+- **P1 (Critical)**: System down, data loss ï¿½ 4-hour response, 24-hour resolution
+- **P2 (High)**: Major function unavailable ï¿½ 8-hour response, 5-day resolution
+- **P3 (Medium)**: Minor function issue ï¿½ 24-hour response, 30-day resolution
+- **P4 (Low)**: Cosmetic issue ï¿½ 48-hour response, 90-day resolution
 
 **Professional Standards**: Supplier warrants that all work will be performed to professional standards by qualified personnel.
 
 ### 8.3 Liability and Insurance
 
-**Liability Cap**: Supplier's aggregate liability capped at 100% of total contract value (£7,000,000), except for:
+**Liability Cap**: Supplier's aggregate liability capped at 100% of total contract value (ï¿½7,000,000), except for:
 - Fraud, gross negligence, or willful misconduct (unlimited liability)
 - Data protection breaches (unlimited liability)
 - Intellectual property infringement (unlimited liability)
 
 **Insurance Requirements**:
-- Professional Indemnity: £10,000,000
-- Employer's Liability: £10,000,000
-- Public Liability: £10,000,000
-- Cyber Liability: £5,000,000
+- Professional Indemnity: ï¿½10,000,000
+- Employer's Liability: ï¿½10,000,000
+- Public Liability: ï¿½10,000,000
+- Cyber Liability: ï¿½5,000,000
 
 Insurance certificates must be provided annually throughout contract and warranty period.
 
@@ -936,9 +969,9 @@ Insurance certificates must be provided annually throughout contract and warrant
 3. IPO Product Owner approval required for acceptance
 4. Formal change order issued with updated milestones and budget
 
-**Minor Changes**: Changes <£10,000 or <5 days effort may be approved via email without formal change order.
+**Minor Changes**: Changes <ï¿½10,000 or <5 days effort may be approved via email without formal change order.
 
-**Major Changes**: Changes >£50,000 require Project Board approval.
+**Major Changes**: Changes >ï¿½50,000 require Project Board approval.
 
 ### 8.7 Dispute Resolution
 
@@ -1016,7 +1049,7 @@ Suppliers may submit clarification questions via email:
 - **Attendees**: Maximum 6 supplier representatives
 - **Content**: Technical architecture walkthrough, team introduction, live demo (optional), Q&A
 
-**Presentation Scoring**: May adjust technical scores by ±10% based on presentation quality, team capability demonstration, and Q&A responses.
+**Presentation Scoring**: May adjust technical scores by ï¿½10% based on presentation quality, team capability demonstration, and Q&A responses.
 
 ### 9.5 Confidentiality
 
@@ -1064,7 +1097,7 @@ The detailed requirements document (1000 lines) is available separately. It incl
 - 20+ Non-Functional Requirements (performance, availability, scalability, security, compliance, maintainability)
 - 5 Integration Requirements (EPO, WIPO, GOV.UK Verify, GOV.UK Pay, GOV.UK Notify)
 - Data models and retention policies
-- Budget: £7M capital, £1.7M annual operational, £12.1M 3-year TCO
+- Budget: ï¿½7M capital, ï¿½1.7M annual operational, ï¿½12.1M 3-year TCO
 
 **Full Document**: Contact procurement@ipo.gov.uk for complete requirements document.
 
@@ -1172,8 +1205,18 @@ Date: _______________________________
 
 **End of Statement of Work**
 
-**Document Version**: 1.0
-**Generated**: 2025-10-15 via ArcKit SOW Tool
+---
+
+**Generated by**: ArcKit `/arckit.sow` command
+**Generated on**: 2026-01-26 15:00 GMT
+**ArcKit Version**: 0.11.2
+**Project**: Patent Management System for the UK Intellectual Property Office (Project 001)
+**AI Model**: claude-opus-4-5-20251101
+**Generation Context**: Updated from v1.0 to template v0.11.2 format; aligned with requirements.md v2.0 (51 requirements, Â£1.75M annual savings)
+
+---
+
+**Document Version**: 2.0
 **Next Steps**:
 1. Supplier registration by 2025-10-25
 2. Clarification questions by 2025-11-10

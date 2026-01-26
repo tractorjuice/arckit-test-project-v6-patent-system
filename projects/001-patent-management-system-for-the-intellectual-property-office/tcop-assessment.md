@@ -1,17 +1,42 @@
-# UK Government Technology Code of Practice (TCoP) Assessment
+# Technology Code of Practice (TCoP) Review
 
-**Project**: Patent Management System for the UK Intellectual Property Office
-**Department/Agency**: UK Intellectual Property Office (IPO)
-**Assessment Date**: 2025-10-15
-**Assessor**: Enterprise Architecture Team
-**Project Phase**: Requirements Complete (Pre-Alpha)
-**Assessment Type**: Initial Assessment
+> **Template Status**: Beta | **Version**: 0.11.2 | **Command**: `/arckit.tcop`
+
+## Document Control
+
+| Field | Value |
+|-------|-------|
+| **Document ID** | ARC-001-TCOP-v2.0 |
+| **Document Type** | Technology Code of Practice Review |
+| **Project** | Patent Management System for the UK Intellectual Property Office (Project 001) |
+| **Classification** | OFFICIAL |
+| **Status** | DRAFT |
+| **Version** | 2.0 |
+| **Created Date** | 2025-10-15 |
+| **Last Modified** | 2026-01-26 |
+| **Review Cycle** | Phase Gate (Alpha/Beta/Live) |
+| **Next Review Date** | 2026-03-31 |
+| **Owner** | Dr. Emily Roberts (Enterprise Architect) |
+| **Reviewed By** | [PENDING] |
+| **Approved By** | [PENDING] |
+| **Distribution** | Project Team, Architecture Team, Digital Spend Control |
+
+## Revision History
+
+| Version | Date | Author | Changes | Approved By | Approval Date |
+|---------|------|--------|---------|-------------|---------------|
+| 1.0 | 2025-10-15 | ArcKit AI | Initial creation from `/arckit.tcop` command | [PENDING] | [PENDING] |
+| 2.0 | 2026-01-26 | ArcKit AI | Updated to template v0.11.2 format | [PENDING] | [PENDING] |
+
+## Document Purpose
+
+This document assesses the Patent Management System project against the UK Government Technology Code of Practice (TCoP) - a set of 13 criteria to help government design, build and buy technology. This assessment informs Digital Spend Control decisions and identifies gaps requiring remediation before proceeding through project phases.
 
 ---
 
 ## Executive Summary
 
-**Overall Compliance**: 105/130 points (81%)
+**Overall TCoP Compliance**: 105/130 points (81%)
 
 **Status**: ✅ **GOOD - Compliant with minor gaps**
 
@@ -37,6 +62,8 @@ However, **3 areas require attention** before proceeding to Beta phase:
 ### 1. Define User Needs ✅ COMPLIANT
 
 **Principle**: Understand your users and their needs. Develop knowledge of how users interact with your technology initiatives.
+
+**Reference**: https://www.gov.uk/guidance/define-user-needs
 
 **Compliance Status**: ✅ COMPLIANT
 
@@ -78,6 +105,8 @@ However, **3 areas require attention** before proceeding to Beta phase:
 ### 2. Make Things Accessible and Inclusive ✅ COMPLIANT
 
 **Principle**: Make sure your technology, infrastructure and systems are accessible and inclusive for all users.
+
+**Reference**: https://www.gov.uk/guidance/make-things-accessible
 
 **Compliance Status**: ✅ COMPLIANT
 
@@ -136,6 +165,8 @@ However, **3 areas require attention** before proceeding to Beta phase:
 ### 3. Be Open and Use Open Source ⚠️ PARTIAL
 
 **Principle**: Publish your code and use open source software to improve transparency, flexibility and accountability.
+
+**Reference**: https://www.gov.uk/guidance/be-open-and-use-open-source
 
 **Compliance Status**: ⚠️ PARTIAL
 
@@ -208,6 +239,8 @@ However, **3 areas require attention** before proceeding to Beta phase:
 
 **Principle**: Build technology that uses open standards to ensure your technology works and communicates with other technology.
 
+**Reference**: https://www.gov.uk/guidance/make-use-of-open-standards
+
 **Compliance Status**: ✅ COMPLIANT
 
 **Evidence**:
@@ -270,6 +303,8 @@ However, **3 areas require attention** before proceeding to Beta phase:
 
 **Principle**: Consider using public cloud solutions first as stated in the Cloud First policy.
 
+**Reference**: https://www.gov.uk/guidance/use-cloud-first
+
 **Compliance Status**: ✅ COMPLIANT (EXEMPLARY)
 
 **Evidence**:
@@ -298,7 +333,7 @@ However, **3 areas require attention** before proceeding to Beta phase:
 - Exemplary cloud-first approach with 100% cloud target
 - AWS GovCloud (UK) appropriate for OFFICIAL-SENSITIVE patent data
 - Cloud-native architecture (not "lift-and-shift") with microservices, serverless
-- £2M annual cost savings through cloud migration (BR-002)
+- £1.75M annual cost savings through cloud migration (BR-002)
 - Infrastructure-as-Code (Terraform) enables repeatability and disaster recovery
 - Multi-region strategy within UK for resilience
 
@@ -306,7 +341,7 @@ However, **3 areas require attention** before proceeding to Beta phase:
 - None identified - exemplary cloud adoption
 
 **Requirements Mapping**:
-- BR-002: Cost Reduction through Cloud Modernization → £2M annual savings
+- BR-002: Cost Reduction through Cloud Modernization → £1.75M annual savings
 - Architecture Principle 1: Cloud-First with Government Cloud Standards → AWS GovCloud UK
 - NFR-S-001: Horizontal Scaling → Auto-scaling in cloud
 - Architecture Principle 10: Infrastructure as Code → Terraform for all infrastructure
@@ -320,6 +355,8 @@ However, **3 areas require attention** before proceeding to Beta phase:
 ### 6. Make Things Secure ✅ COMPLIANT
 
 **Principle**: Keep systems and data safe with the appropriate level of security.
+
+**Reference**: https://www.gov.uk/guidance/make-things-secure
 
 **Compliance Status**: ✅ COMPLIANT
 
@@ -400,6 +437,8 @@ However, **3 areas require attention** before proceeding to Beta phase:
 
 **Principle**: Make sure users rights are protected by integrating privacy as an essential part of your system.
 
+**Reference**: https://www.gov.uk/guidance/make-privacy-integral
+
 **Compliance Status**: ✅ COMPLIANT
 
 **Evidence**:
@@ -478,6 +517,8 @@ However, **3 areas require attention** before proceeding to Beta phase:
 
 **Principle**: Avoid duplicating effort and unnecessary costs by collaborating across government and sharing and reusing technology.
 
+**Reference**: https://www.gov.uk/guidance/share-and-reuse-technology
+
 **Compliance Status**: ✅ COMPLIANT (EXEMPLARY)
 
 **Evidence**:
@@ -508,7 +549,7 @@ However, **3 areas require attention** before proceeding to Beta phase:
 **Findings**:
 - Exemplary reuse of GDS platform services (Pay, Notify, Verify, Design System)
 - Avoids reinventing common government services (payments, notifications, identity)
-- £2M cost savings partially attributed to reusing managed services vs. building custom
+- £1.75M cost savings partially attributed to reusing managed services vs. building custom
 - User research lead seconded from GDS demonstrates cross-government collaboration
 - Procurement via Digital Marketplace (G-Cloud framework) enables SME participation
 - Open data API enables other departments and researchers to reuse patent data
@@ -538,6 +579,8 @@ However, **3 areas require attention** before proceeding to Beta phase:
 ### 9. Integrate and Adapt Technology ✅ COMPLIANT
 
 **Principle**: Your technology should work with existing technologies, processes and infrastructure in your organisation, and adapt to future demands.
+
+**Reference**: https://www.gov.uk/guidance/integrate-and-adapt-technology
 
 **Compliance Status**: ✅ COMPLIANT
 
@@ -607,6 +650,8 @@ However, **3 areas require attention** before proceeding to Beta phase:
 ### 10. Make Better Use of Data ✅ COMPLIANT
 
 **Principle**: Use data more effectively by improving your technology, infrastructure and processes.
+
+**Reference**: https://www.gov.uk/guidance/make-better-use-of-data
 
 **Compliance Status**: ✅ COMPLIANT
 
@@ -685,6 +730,8 @@ However, **3 areas require attention** before proceeding to Beta phase:
 
 **Principle**: Your purchasing strategy must show you've considered commercial and technology aspects, and contractual limitations.
 
+**Reference**: https://www.gov.uk/guidance/define-your-purchasing-strategy
+
 **Compliance Status**: ✅ COMPLIANT
 
 **Evidence**:
@@ -708,7 +755,7 @@ However, **3 areas require attention** before proceeding to Beta phase:
 | Total Cost of Ownership | £12.1M over 3 years (£7M capital + £5.1M operational) | FinOps monitoring, cost optimization |
 | Vendor lock-in | AWS cloud (medium risk) | Open standards, Terraform IaC enables multi-cloud |
 | SME access | G-Cloud framework enables SME participation | Lot structure allows smaller contracts |
-| ROI | £6M savings over 3 years (£2M/year - £1.7M/year) | Business case approved by HM Treasury |
+| ROI | £5.25M savings over 3 years (£1.75M/year savings) | Business case approved by HM Treasury |
 
 **Technology Considerations**:
 - [x] Build vs buy analysis: Build custom platform (reusing GDS services)
@@ -718,7 +765,7 @@ However, **3 areas require attention** before proceeding to Beta phase:
 
 **Findings**:
 - Clear procurement strategy via G-Cloud framework (compliant with government procurement rules)
-- 3-year TCO calculated (£12.1M) with ROI demonstrated (£6M net savings)
+- 3-year TCO calculated (£12.1M) with ROI demonstrated (£5.25M net savings)
 - Vendor lock-in risk mitigated through open standards and Infrastructure-as-Code
 - SME participation enabled through G-Cloud framework
 - Exit strategy: Open standards and API-first architecture enable vendor switching if needed
@@ -732,7 +779,7 @@ However, **3 areas require attention** before proceeding to Beta phase:
 **Requirements Mapping**:
 - Budget section: £7M capital, £1.7M annual operational costs
 - BC-004: Procurement via G-Cloud framework (Digital Marketplace)
-- BR-002: £2M annual cost savings (ROI justification)
+- BR-002: £1.75M annual cost savings (ROI justification)
 - Architecture Principle 1: Cloud-First → AWS GovCloud UK selected
 
 **Remediation**:
@@ -748,6 +795,8 @@ However, **3 areas require attention** before proceeding to Beta phase:
 ### 12. Make Your Technology Sustainable ❌ NON-COMPLIANT
 
 **Principle**: Increase sustainability throughout the lifecycle of your technology.
+
+**Reference**: https://www.gov.uk/guidance/make-your-technology-sustainable
 
 **Compliance Status**: ❌ NON-COMPLIANT
 
@@ -780,7 +829,7 @@ However, **3 areas require attention** before proceeding to Beta phase:
 
 **Findings**:
 - **CRITICAL GAP**: No carbon impact assessment conducted or planned
-- Cloud optimization focused on COST reduction (£2M savings) but not carbon reduction
+- Cloud optimization focused on COST reduction (£1.75M savings) but not carbon reduction
 - Data lifecycle policies reduce storage footprint (sustainability benefit not quantified)
 - Auto-scaling reduces idle resources (sustainability benefit but not measured)
 - No mention of Greening Government ICT Strategy (mandatory for government projects)
@@ -820,7 +869,11 @@ However, **3 areas require attention** before proceeding to Beta phase:
 
 **Principle**: Services must comply with the Service Standard requirements.
 
+**Reference**: https://www.gov.uk/service-manual/service-standard
+
 **Compliance Status**: ⚠️ PARTIAL
+
+**Is this a public-facing service?**: Yes
 
 **Evidence**:
 - [x] Service Standard assessment planned (BR-004)
@@ -896,258 +949,92 @@ However, **3 areas require attention** before proceeding to Beta phase:
 
 ---
 
-## Overall Assessment Summary
+## Overall Compliance Summary
 
 ### Compliance Scorecard
 
-| TCoP Point | Title | Score /10 | Status |
-|------------|-------|-----------|--------|
-| 1 | Define User Needs | 8 | ✅ |
-| 2 | Accessible and Inclusive | 9 | ✅ |
-| 3 | Open and Open Source | 6 | ⚠️ |
-| 4 | Open Standards | 9 | ✅ |
-| 5 | Cloud First | 10 | ✅ |
-| 6 | Secure | 9 | ✅ |
-| 7 | Privacy Integral | 9 | ✅ |
-| 8 | Share and Reuse | 10 | ✅ |
-| 9 | Integrate and Adapt | 9 | ✅ |
-| 10 | Better Use of Data | 9 | ✅ |
-| 11 | Purchasing Strategy | 8 | ✅ |
-| 12 | Sustainable | 4 | ❌ |
-| 13 | Service Standard | 7 | ⚠️ |
-| **TOTAL** | | **105/130** | **81%** |
+| TCoP Point | Title | Score /10 | Status | Critical Issues |
+|------------|-------|-----------|--------|-----------------|
+| 1 | Define User Needs | 8 | ✅ | No |
+| 2 | Make Things Accessible and Inclusive | 9 | ✅ | No |
+| 3 | Be Open and Use Open Source | 6 | ⚠️ | No |
+| 4 | Make Use of Open Standards | 9 | ✅ | No |
+| 5 | Use Cloud First | 10 | ✅ | No |
+| 6 | Make Things Secure | 9 | ✅ | No |
+| 7 | Make Privacy Integral | 9 | ✅ | No |
+| 8 | Share, Reuse and Collaborate | 10 | ✅ | No |
+| 9 | Integrate and Adapt Technology | 9 | ✅ | No |
+| 10 | Make Better Use of Data | 9 | ✅ | No |
+| 11 | Define Your Purchasing Strategy | 8 | ✅ | No |
+| 12 | Make Your Technology Sustainable | 4 | ❌ | Yes |
+| 13 | Meet the Service Standard | 7 | ⚠️ | No |
 
-**Percentage Score**: 81%
+**Overall Score**: 105/130 (81%)
 
-### Compliance Levels
+### Critical Issues Requiring Immediate Action
 
-- **90-100%** (117-130 points): Excellent - Fully compliant ✅
-- **70-89%** (91-116 points): Good - Compliant with minor gaps ✅ **← CURRENT STATUS**
-- **50-69%** (65-90 points): Needs improvement - Partially compliant
-- **< 50%** (< 65 points): Poor - Non-compliant
+1. **TCoP Point 12 - Sustainability**: Carbon impact assessment NOT conducted
+   - Risk: Non-compliance with Greening Government ICT Strategy and UK Net Zero commitment
+   - Impact: Project cannot proceed to Live phase without sustainability assessment
 
-### Critical Issues (Blocking)
+### Recommendations
 
-1. **TCoP Point 12 - Sustainability**: Carbon impact assessment NOT conducted ❌
-   - **Risk**: Non-compliance with Greening Government ICT Strategy and UK Net Zero commitment
-   - **Impact**: Project cannot proceed to Live phase without sustainability assessment
-   - **Severity**: CRITICAL
+**High Priority**:
+- Conduct carbon impact assessment and set carbon reduction targets (TCoP Point 12)
+- Define code publication strategy and create public GitHub repository (TCoP Point 3)
+- Engage GDS to schedule Service Standard assessments (TCoP Point 13)
 
-### High Priority Issues (Significant Gaps)
+**Medium Priority**:
+- Conduct user research with 20+ examiners and 50+ applicants (TCoP Point 1)
+- Commission Cyber Essentials Plus assessment and schedule ITHC (TCoP Point 6)
+- Complete DPIA with DPO (TCoP Point 7)
+- Apply Social Value Model during procurement (TCoP Point 11)
 
-1. **TCoP Point 3 - Open Source**: Code publication strategy undefined ⚠️
-   - **Risk**: Non-compliance with TCoP Point 3, reduced transparency and collaboration
-   - **Impact**: Project can proceed to Beta but must address before Live
-   - **Severity**: HIGH
-
-2. **TCoP Point 13 - Service Standard**: GDS Service Standard assessment not yet scheduled ⚠️
-   - **Risk**: Cannot launch public Beta without GDS assessment
-   - **Impact**: Timeline at risk if assessment not scheduled soon
-   - **Severity**: HIGH
-
-### Medium Priority Issues
-
-1. **TCoP Point 1 - User Needs**: User research not yet conducted (planned for Alpha)
-2. **TCoP Point 6 - Security**: Cyber Essentials Plus and ITHC not yet obtained (planned before Beta)
-3. **TCoP Point 7 - Privacy**: DPIA not yet completed (planned before Beta)
-4. **TCoP Point 11 - Purchasing**: Social Value Model not yet applied (required for contracts >£5M)
-
----
-
-## Recommendations
-
-### Immediate Actions (Before Alpha Phase - Q1 2026)
-
-#### 1. Address Sustainability Gap (CRITICAL)
-
-**Action**: Conduct carbon impact assessment and set carbon reduction targets
-
-**Why**: TCoP Point 12 is currently non-compliant. Sustainability is mandatory for all UK government technology projects. Greening Government ICT Strategy requires carbon assessment and Net Zero alignment.
-
-**How**:
-1. Appoint Sustainability Lead or engage sustainability consultant
-2. Use Cloud Carbon Footprint tool or similar to assess current architecture's carbon footprint
-3. Set carbon reduction target (recommend: 30% reduction over 3 years)
-4. Select AWS regions with renewable energy commitments (eu-west-2 London has renewable energy)
-5. Include carbon metrics in FinOps dashboards
-6. Apply sustainability weighting in Social Value Model for procurement
-7. Document sustainability strategy in architecture principles
-
-**Owner**: Infrastructure Team + Sustainability Lead (to be appointed)
-
-**Due**: Before Alpha phase (Q1 2026)
-
-**Expected Outcome**: TCoP Point 12 score increases from 4/10 to 8/10 (COMPLIANT)
-
----
-
-#### 2. Define Code Publication Strategy (HIGH)
-
-**Action**: Create public GitHub repository and define code publication plan
-
-**Why**: TCoP Point 3 requires code publication for transparency and collaboration. Currently no strategy defined.
-
-**How**:
-1. Create GitHub organization: `github.com/intellectual-property-office`
-2. Decide which code to publish (recommend: core application code, IaC, CI/CD)
-3. Select open source license (MIT or Apache 2.0 recommended for government code)
-4. Document security-sensitive code exemptions (if any)
-5. Establish code publication process (review before public push)
-6. Publish sample code or starter templates during Alpha phase
-
-**Owner**: Dr. Emily Roberts (Enterprise Architect) + Development Team
-
-**Due**: Before Beta launch (Q2 2026)
-
-**Expected Outcome**: TCoP Point 3 score increases from 6/10 to 9/10 (COMPLIANT)
-
----
-
-#### 3. Schedule GDS Service Standard Assessments (HIGH)
-
-**Action**: Engage GDS to schedule Service Standard assessments for Alpha, Beta, and Live phases
-
-**Why**: TCoP Point 13 requires Service Standard compliance. Public Beta cannot launch without GDS assessment.
-
-**How**:
-1. Contact GDS Service Assessment team: serviceassessments@digital.cabinet-office.gov.uk
-2. Request assessment slots for:
-   - Alpha assessment: February 2026 (before Alpha complete)
-   - Beta assessment: September 2026 (before Public Beta launch)
-   - Live assessment: December 2026 (before Production Go-Live)
-3. Prepare assessment materials (service blueprint, user research, architecture)
-4. Conduct internal readiness review before each assessment
-
-**Owner**: Sarah Williams (Product Owner) + Sophie Martin (User Research Lead)
-
-**Due**: Schedule by January 2026, conduct Alpha assessment by February 2026
-
-**Expected Outcome**: TCoP Point 13 score increases from 7/10 to 9/10 (COMPLIANT)
-
----
-
-### Actions Before Beta Launch (Q2 2026)
-
-#### 4. Conduct User Research and Complete DPIA
-
-**Action**: Conduct user research with 20+ examiners and 50+ applicants; complete Data Protection Impact Assessment
-
-**Why**: Validate user needs (TCoP Point 1) and ensure GDPR compliance (TCoP Point 7)
-
-**Owner**: Sophie Martin (User Research) + Laura Davies (DPO)
-
-**Due**: Before Beta launch (Q2 2026)
-
----
-
-#### 5. Obtain Cyber Essentials Plus and Schedule ITHC
-
-**Action**: Commission Cyber Essentials Plus assessment and schedule ITHC penetration test
-
-**Why**: Required for OFFICIAL-SENSITIVE data classification (TCoP Point 6)
-
-**Owner**: Michael Brown (CISO)
-
-**Due**: Before Beta launch (Q2 2026)
-
----
-
-## Action Plan
-
-| Action | TCoP Point | Owner | Due Date | Priority | Status |
-|--------|------------|-------|----------|----------|--------|
-| Conduct carbon impact assessment | 12 | Infrastructure Team | Q1 2026 | CRITICAL | ⏳ Not Started |
-| Define code publication strategy | 3 | Enterprise Architect | Q2 2026 | HIGH | ⏳ Not Started |
-| Schedule GDS Service Assessments | 13 | Product Owner | Jan 2026 | HIGH | ⏳ Not Started |
-| Conduct user research | 1 | User Research Lead | Q1 2026 | MEDIUM | ⏳ Not Started |
-| Complete DPIA | 7 | DPO | Q2 2026 | MEDIUM | ⏳ Not Started |
-| Obtain Cyber Essentials Plus | 6 | CISO | Q2 2026 | MEDIUM | ⏳ Not Started |
-| Schedule ITHC penetration test | 6 | CISO | Q2 2026 | MEDIUM | ⏳ Not Started |
-| Apply Social Value Model | 11 | Procurement Team | Q1 2026 | MEDIUM | ⏳ Not Started |
+**Low Priority**:
+- Develop detailed technology roadmap and technical debt tracking (TCoP Point 9)
+- Define data governance framework and publish to data.gov.uk (TCoP Point 10)
+- Publish case studies and code examples for cross-government benefit (TCoP Point 8)
 
 ---
 
 ## Next Steps
 
-### Immediate (Next 30 Days)
+**Immediate Actions** (0-30 days):
+- [ ] Appoint Sustainability Lead for carbon impact assessment (CRITICAL)
+- [ ] Engage GDS to schedule Service Standard assessments (HIGH)
+- [ ] Create GitHub organization: `github.com/intellectual-property-office` (HIGH)
 
-1. **Appoint Sustainability Lead**: Assign responsibility for carbon assessment (CRITICAL)
-2. **Engage GDS**: Schedule Service Standard assessments for Alpha, Beta, Live (HIGH)
-3. **Create GitHub Organization**: Set up `github.com/intellectual-property-office` (HIGH)
+**Short-term Actions** (1-3 months):
+- [ ] Complete carbon impact assessment and set reduction targets
+- [ ] Conduct user research with 20+ examiners, 50+ applicants
+- [ ] Draft code publication policy
+- [ ] Complete GDS Alpha Assessment
 
-### Alpha Phase (Q1 2026)
+**Long-term Actions** (3-12 months):
+- [ ] Publish code to GitHub under open source license
+- [ ] Complete DPIA and obtain DPO approval
+- [ ] Obtain Cyber Essentials Plus certification
+- [ ] Schedule and complete ITHC penetration test
+- [ ] Complete GDS Beta and Live Assessments
 
-1. **Complete carbon impact assessment**: Quantify carbon footprint and set reduction targets
-2. **Conduct user research**: Validate user needs with 20+ examiners, 50+ applicants
-3. **Draft code publication policy**: Define what code will be published and under what license
-4. **GDS Alpha Assessment**: Demonstrate service is viable and meets user needs
-
-### Beta Phase (Q2-Q3 2026)
-
-1. **Publish code to GitHub**: Open source core application code and IaC
-2. **Complete DPIA**: Data Protection Impact Assessment with DPO approval
-3. **Obtain Cyber Essentials Plus**: Security accreditation for OFFICIAL-SENSITIVE data
-4. **Schedule ITHC penetration test**: Annual IT Health Check before public Beta
-5. **GDS Beta Assessment**: Demonstrate working service meets accessibility and security standards
-
-### Live Phase (Q4 2026)
-
-1. **GDS Live Assessment**: Final assessment before Production Go-Live
-2. **Publish sustainability report**: Document carbon reduction progress
-3. **Establish continuous improvement**: Regular user research, performance monitoring
+**Review Schedule**: After Alpha phase (March 2026)
 
 ---
 
-## Sign-Off
+## Approval
 
-**Assessed By**: Enterprise Architecture Team
-**Date**: 2025-10-15
-**Next Review**: After Alpha phase (March 2026)
-
-**Senior Responsible Owner Sign-Off**:
-Name: Tim Moss, Chief Executive, UK Intellectual Property Office
-Date: ________________
-Signature: ________________
-
-**CISO Sign-Off** (Security Assessment):
-Name: Michael Brown, Chief Information Security Officer
-Date: ________________
-Signature: ________________
-
-**DPO Sign-Off** (Privacy Assessment):
-Name: Laura Davies, Data Protection Officer
-Date: ________________
-Signature: ________________
+| Role | Name | Date | Signature |
+|------|------|------|-----------|
+| Project Lead | Sarah Williams | | |
+| Technical Architect | Dr. Emily Roberts | | |
+| Senior Responsible Owner | Tim Moss | | |
+| Digital Spend Control (if applicable) | [PENDING] | | |
 
 ---
 
-## Appendices
-
-### Appendix A: GDS Service Standard Assessment Checklist
-
-[To be completed before each GDS assessment]
-
-### Appendix B: Cyber Essentials Plus Readiness Checklist
-
-[To be completed before security accreditation]
-
-### Appendix C: Data Protection Impact Assessment (DPIA) Template
-
-[Link to completed DPIA once available]
-
-### Appendix D: Carbon Impact Assessment Report
-
-[Link to carbon assessment once completed]
-
-### Appendix E: Code Publication Policy
-
-[Link to policy once defined]
-
----
-
-**Document Version**: 1.0
-**Assessment Type**: Initial Assessment (Requirements Phase)
-**Next Assessment**: After Alpha phase completion (March 2026)
-**Source**: https://www.gov.uk/guidance/the-technology-code-of-practice
-
-**Generated**: 2025-10-15 via ArcKit TCoP Assessment Tool
+**Generated by**: ArcKit `/arckit.tcop` command
+**Generated on**: 2026-01-26 14:30 GMT
+**ArcKit Version**: 0.11.2
+**Project**: Patent Management System for the UK Intellectual Property Office (Project 001)
+**AI Model**: claude-opus-4-5-20251101
+**Generation Context**: Updated from v1.0 to align with template v0.11.2 format; source documents: requirements.md v2.0, stakeholder-drivers.md v2.0, architecture-principles.md v2.1

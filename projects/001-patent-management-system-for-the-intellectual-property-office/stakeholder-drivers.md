@@ -1,23 +1,32 @@
 # Stakeholder Drivers & Goals Analysis: Patent Management System for IPO
 
-## Document Information
+> **Template Status**: Live | **Version**: 0.11.2 | **Command**: `/arckit.stakeholders`
+
+## Document Control
 
 | Field | Value |
 |-------|-------|
-| **Document ID** | ARC-001-STKE-v1.0 |
-| **Project** | Patent Management System for IPO (Project 001) |
+| **Document ID** | ARC-001-STKE-v2.0 |
 | **Document Type** | Stakeholder Drivers & Goals Analysis |
+| **Project** | Patent Management System for IPO (Project 001) |
 | **Classification** | OFFICIAL |
-| **Version** | 1.0 |
 | **Status** | DRAFT |
-| **Date** | 2026-01-22 |
+| **Version** | 2.0 |
+| **Created Date** | 2026-01-22 |
+| **Last Modified** | 2026-01-26 |
+| **Review Cycle** | Quarterly |
+| **Next Review Date** | 2026-04-26 |
 | **Owner** | Enterprise Architecture Team |
+| **Reviewed By** | [PENDING] |
+| **Approved By** | [PENDING] |
+| **Distribution** | Project Team, Architecture Team, IPO Executive Team |
 
 ## Revision History
 
-| Version | Date | Author | Changes |
-|---------|------|--------|---------|
-| 1.0 | 2026-01-22 | ArcKit AI | Initial creation from `/arckit.stakeholders` command |
+| Version | Date | Author | Changes | Approved By | Approval Date |
+|---------|------|--------|---------|-------------|---------------|
+| 1.0 | 2026-01-22 | ArcKit AI | Initial creation from `/arckit.stakeholders` command | PENDING | PENDING |
+| 2.0 | 2026-01-26 | ArcKit AI | Updated to align with ArcKit template v0.11.2 | PENDING | PENDING |
 
 ---
 
@@ -83,22 +92,22 @@ These conflicts are manageable with appropriate engagement strategies and phased
 
 ```
 HIGH POWER
-    |
-    |  [Manage Closely]              |  [Keep Satisfied]
-    |  - Tim Moss (CEO)              |  - WIPO/EPO (integration)
-    |  - Sarah Williams (Director)   |  - Michael Brown (CISO)
-    |  - Dr. Emily Roberts (EA)      |  - Laura Davies (DPO)
-    |  - Cabinet Office/CDDO         |  - NCSC
-    |                                |  - IPO Finance
-----+--------------------------------+--------------------------------
-    |  [Keep Informed]               |  [Monitor]
-    |  - James Chen (Examiner)       |  - Academic Researchers
-    |  - Sophie Martin (UX)          |  - IP5 Offices
-    |  - Patent Applicants           |
-    |  - Patent Attorneys            |
-    |  - IPO Operations/Support      |
-    |  - David Thompson (Intl)       |
-    |                                |
+    │
+    │  [Manage Closely]              │  [Keep Satisfied]
+    │  - Tim Moss (CEO)              │  - WIPO/EPO (integration)
+    │  - Sarah Williams (Director)   │  - Michael Brown (CISO)
+    │  - Dr. Emily Roberts (EA)      │  - Laura Davies (DPO)
+    │  - Cabinet Office/CDDO         │  - NCSC
+    │                                │  - IPO Finance
+────┼────────────────────────────────┼────────────────────────────────
+    │  [Keep Informed]               │  [Monitor]
+    │  - James Chen (Examiner)       │  - Academic Researchers
+    │  - Sophie Martin (UX)          │  - IP5 Offices
+    │  - Patent Applicants           │
+    │  - Patent Attorneys            │
+    │  - IPO Operations/Support      │
+    │  - David Thompson (Intl)       │
+    │                                │
 LOW POWER                                                    HIGH INTEREST
 ```
 
@@ -211,7 +220,7 @@ Examiners currently toggle between multiple legacy systems, perform manual data 
 **Driver Statement**: Deliver a technically excellent, standards-compliant architecture that meets government technology requirements, integrates with international systems, and provides a sustainable platform for future innovation.
 
 **Context & Background**:
-The Enterprise Architect is accountable for ensuring the solution complies with 21 architecture principles, GDS Service Standard, Technology Code of Practice, NCSC Cloud Security Principles, and international patent data standards (WIPO ST.96). She must balance innovation with pragmatism, ensuring the solution is maintainable by government/SI teams.
+The Enterprise Architect is accountable for ensuring the solution complies with architecture principles, GDS Service Standard, Technology Code of Practice, NCSC Cloud Security Principles, and international patent data standards (WIPO ST.96). She must balance innovation with pragmatism, ensuring the solution is maintainable by government/SI teams.
 
 **Driver Intensity**: HIGH
 
@@ -249,7 +258,7 @@ Unpublished patent applications contain commercially sensitive information that 
 
 **Enablers**:
 - Security-by-design from project inception
-- Government-approved cloud services with IL3 compliance
+- Government-approved cloud services meeting OFFICIAL-SENSITIVE requirements
 - Strong authentication (MFA) and encryption controls
 - Comprehensive audit logging and monitoring
 
@@ -471,18 +480,18 @@ Patent attorneys file hundreds of applications per year on behalf of clients. Th
 
 **Goal Owner**: Tim Moss (Chief Executive)
 
-**Goal Statement**: Achieve £2M annual operational cost savings by migrating to government-approved cloud services within 18 months of project start.
+**Goal Statement**: Achieve £1.75M annual operational cost savings by migrating to government-approved cloud services within 18 months of project start.
 
 **Why This Matters**: Public funds must be spent responsibly. Cloud migration enables pay-as-you-go pricing, reduced data center costs, and automation reducing manual operations.
 
 **Success Metrics**:
-- **Primary Metric**: Annual operational cost (vs. £3.7M baseline)
+- **Primary Metric**: Annual operational cost (vs. £3.45M baseline)
 - **Secondary Metrics**:
-  - Infrastructure cost reduction (target: £1.5M)
+  - Infrastructure cost reduction (target: £1.25M)
   - Staffing cost reduction through automation (target: £500K)
   - Cloud idle resource utilization (target: <30%)
 
-**Baseline**: £3.7M annual operational costs (FY2025)
+**Baseline**: £3.45M annual operational costs (FY2025)
 
 **Target**: £1.7M annual operational costs (FY2028)
 
@@ -666,7 +675,7 @@ Patent attorneys file hundreds of applications per year on behalf of clients. Th
 - **Report Owner**: IPO Finance Team
 
 **Business Value**:
-- **Financial Impact**: £2M annual operational savings
+- **Financial Impact**: £1.75M annual operational savings
 - **Strategic Impact**: UK competitiveness in patent processing
 - **Operational Impact**: Examiner productivity increased 25%
 - **Customer Impact**: Faster decisions enabling business certainty
@@ -697,7 +706,7 @@ Patent attorneys file hundreds of applications per year on behalf of clients. Th
 
 ### Outcome O-2: Enhanced User Satisfaction
 
-**Supported Goals**: G-3 (Digital adoption), G-4 (GDS assessment), G-8 (User-centered design)
+**Supported Goals**: G-3 (Digital adoption), G-4 (GDS assessment)
 
 **Outcome Statement**: Achieve 85% user satisfaction score across all patent service users (applicants, attorneys, examiners).
 
@@ -858,10 +867,10 @@ Patent attorneys file hundreds of applications per year on behalf of clients. Th
 **Competing Drivers**:
 
 - **Conflict 1**: Tim Moss (SD-1) wants rapid cost reduction vs. Michael Brown (SD-5) requires comprehensive security controls
-  - **Resolution Strategy**: Security is non-negotiable for OFFICIAL-SENSITIVE data. Frame security investment as risk mitigation (breach costs far exceed control costs). Phase security investment across project timeline.
+  - **Resolution Strategy**: Security is non-negotiable for OFFICIAL-SENSITIVE data. Frame security investment as risk mitigation (breach costs far exceed control costs). Use managed services to reduce security operational costs while maintaining controls. Accepted £1.75M savings (vs. £2M target) with full security investment.
 
 - **Conflict 2**: Tim Moss (SD-1) wants maximum automation vs. James Chen (SD-3) concerned about role impact
-  - **Resolution Strategy**: Frame automation as augmentation not replacement. ML assists classification but examiner approves. Clear communication about how automation enhances (not threatens) examiner expertise. Invest in training and change management.
+  - **Resolution Strategy**: Frame automation as augmentation not replacement. ML assists classification but examiner approves. Clear communication about how automation enhances (not threatens) examiner expertise. Invest in training and change management. Human-in-the-loop approach adopted.
 
 - **Conflict 3**: David Thompson (SD-7) needs international data exchange vs. Laura Davies (SD-6) concerned about cross-border data transfers
   - **Resolution Strategy**: International IP treaties have adequacy basis for WIPO/EPO transfers. DPIA will assess specific data flows. Personal data minimized in international exchanges. Technical controls (encryption, audit) mitigate risk.
@@ -882,7 +891,7 @@ Patent attorneys file hundreds of applications per year on behalf of clients. Th
 
 ### Tim Moss (Chief Executive)
 
-**Primary Message**: The Patent Management System modernization is on track to deliver £2M annual savings and 33% processing time improvement, positioning UK IPO as a world-leading patent office.
+**Primary Message**: The Patent Management System modernization is on track to deliver £1.75M annual savings and 33% processing time improvement, positioning UK IPO as a world-leading patent office.
 
 **Key Talking Points**:
 - Cost reduction through cloud migration and automation
@@ -1190,8 +1199,8 @@ Patent attorneys file hundreds of applications per year on behalf of clients. Th
 This stakeholder analysis traces to the following requirements document:
 
 - **Document**: `projects/001-patent-management-system-for-the-intellectual-property-office/requirements.md`
-- **Version**: 1.0
-- **Date**: 2025-10-15
+- **Version**: 2.0
+- **Date**: 2026-01-26
 
 Key requirement mappings:
 - SD-1, SD-2, SD-9 → BR-001 (Patent Processing Efficiency)
@@ -1208,16 +1217,16 @@ Key requirement mappings:
 This stakeholder analysis aligns with the following Architecture Principles:
 
 - **Document**: `.arckit/memory/architecture-principles.md`
-- **Version**: 1.0
-- **Date**: 2025-10-15
+- **Version**: 2.1
+- **Date**: 2026-01-26
 
 Key principle alignments:
-- SD-4 (Technical excellence) → Principle 1 (Cloud-First), Principle 2 (API-First)
-- SD-5 (Security) → Principle 3 (Security by Design)
-- SD-8 (Accessibility) → Principle 4 (Accessibility WCAG 2.2 AA)
-- SD-4 (Observability) → Principle 5 (Observability)
-- SD-6 (Privacy) → Principle 6 (Data Sovereignty), Principle 16 (Audit Logging)
-- SD-7 (International) → Principle 20 (International Patent Data Exchange)
+- SD-4 (Technical excellence) → Principle 1 (Scalability and Elasticity), Principle 3 (Interoperability)
+- SD-5 (Security) → Principle 4 (Security by Design)
+- SD-8 (Accessibility) → Principle 14 (Accessibility WCAG 2.2 AA)
+- SD-4 (Observability) → Principle 5 (Observability and Operational Excellence)
+- SD-6 (Privacy) → Principle 6 (Data Sovereignty and Governance)
+- SD-7 (International) → Principle 3 (Interoperability and Integration)
 
 ---
 
@@ -1240,7 +1249,7 @@ Key principle alignments:
 ---
 
 **Generated by**: ArcKit `/arckit.stakeholders` command
-**Generated on**: 2026-01-22
-**ArcKit Version**: 0.8.2
-**Project**: Patent Management System for IPO (001)
-**Model**: claude-opus-4-5-20251101
+**Generated on**: 2026-01-26
+**ArcKit Version**: 0.11.2
+**Project**: Patent Management System for IPO (Project 001)
+**AI Model**: Claude Opus 4.5
