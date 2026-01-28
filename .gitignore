@@ -6,3 +6,4 @@
 
 # direnv
 .envrc.local
+.backup/
