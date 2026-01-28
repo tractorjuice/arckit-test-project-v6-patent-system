@@ -1,15 +1,18 @@
 {
-  "generated": "2026-01-25T10:00:00Z",
+  "generated": "2026-01-28T19:03:00Z",
   "repository": {
     "owner": "tractorjuice",
     "name": "arckit-test-project-v6-patent-system",
     "branch": "main"
   },
+  "defaultDocument": "projects/000-global/ARC-000-PRIN-v1.0.md",
   "global": [
     {
-      "path": ".arckit/memory/architecture-principles.md",
+      "path": "projects/000-global/ARC-000-PRIN-v1.0.md",
       "title": "Architecture Principles",
-      "category": "Architecture"
+      "category": "Architecture",
+      "documentId": "ARC-000-PRIN-v1.0",
+      "isDefault": true
     }
   ],
   "projects": [
@@ -18,48 +21,60 @@
       "name": "Patent Management System for IPO",
       "documents": [
         {
-          "path": "projects/001-patent-management-system-for-the-intellectual-property-office/stakeholder-drivers.md",
-          "title": "Stakeholder Drivers & Goals",
-          "category": "Discovery"
-        },
-        {
-          "path": "projects/001-patent-management-system-for-the-intellectual-property-office/requirements.md",
+          "path": "projects/001-patent-management-system-for-the-intellectual-property-office/ARC-001-REQ-v1.0.md",
           "title": "Requirements",
-          "category": "Discovery"
+          "category": "Discovery",
+          "documentId": "ARC-001-REQ-v1.0"
         },
         {
-          "path": "projects/001-patent-management-system-for-the-intellectual-property-office/sow.md",
-          "title": "Statement of Work",
-          "category": "Procurement"
+          "path": "projects/001-patent-management-system-for-the-intellectual-property-office/ARC-001-STKE-v1.0.md",
+          "title": "Stakeholder Drivers",
+          "category": "Discovery",
+          "documentId": "ARC-001-STKE-v1.0"
         },
         {
-          "path": "projects/001-patent-management-system-for-the-intellectual-property-office/evaluation-criteria.md",
-          "title": "Evaluation Criteria",
-          "category": "Procurement"
-        },
-        {
-          "path": "projects/001-patent-management-system-for-the-intellectual-property-office/tcop-assessment.md",
-          "title": "TCoP Assessment",
-          "category": "Compliance"
-        },
-        {
-          "path": "projects/001-patent-management-system-for-the-intellectual-property-office/traceability-matrix.md",
+          "path": "projects/001-patent-management-system-for-the-intellectual-property-office/ARC-001-TRAC-v1.0.md",
           "title": "Traceability Matrix",
-          "category": "Governance"
+          "category": "Governance",
+          "documentId": "ARC-001-TRAC-v1.0"
         },
         {
-          "path": "projects/001-patent-management-system-for-the-intellectual-property-office/analysis-report.md",
-          "title": "Governance Analysis Report",
-          "category": "Governance"
+          "path": "projects/001-patent-management-system-for-the-intellectual-property-office/ARC-001-ANAL-v1.0.md",
+          "title": "Analysis Report",
+          "category": "Governance",
+          "documentId": "ARC-001-ANAL-v1.0"
         },
         {
-          "path": "projects/001-patent-management-system-for-the-intellectual-property-office/wardley-maps/procurement-strategy.md",
-          "title": "Procurement Strategy Wardley Map",
-          "category": "Architecture"
+          "path": "projects/001-patent-management-system-for-the-intellectual-property-office/ARC-001-TCOP-v1.0.md",
+          "title": "TCoP Assessment",
+          "category": "Compliance",
+          "documentId": "ARC-001-TCOP-v1.0"
+        },
+        {
+          "path": "projects/001-patent-management-system-for-the-intellectual-property-office/ARC-001-SOW-v1.0.md",
+          "title": "Statement of Work",
+          "category": "Procurement",
+          "documentId": "ARC-001-SOW-v1.0"
+        },
+        {
+          "path": "projects/001-patent-management-system-for-the-intellectual-property-office/ARC-001-EVAL-v1.0.md",
+          "title": "Evaluation Criteria",
+          "category": "Procurement",
+          "documentId": "ARC-001-EVAL-v1.0"
         }
       ],
       "diagrams": [],
+      "research": [],
       "decisions": [],
+      "wardleyMaps": [
+        {
+          "path": "projects/001-patent-management-system-for-the-intellectual-property-office/wardley-maps/ARC-001-WARD-001-v1.0.md",
+          "title": "Procurement Strategy",
+          "documentId": "ARC-001-WARD-001-v1.0"
+        }
+      ],
+      "dataContracts": [],
+      "reviews": [],
       "vendors": []
     }
   ]

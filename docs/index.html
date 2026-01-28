@@ -968,6 +968,17 @@
                         });
                     }
 
+                    if (project.wardleyMaps) {
+                        project.wardleyMaps.forEach(doc => {
+                            allDocuments.push({
+                                ...doc,
+                                project: projectName,
+                                category: 'Wardley Maps',
+                                searchText: `${doc.title} wardley maps strategy ${projectName}`.toLowerCase()
+                            });
+                        });
+                    }
+
                     if (project.vendors) {
                         project.vendors.forEach(vendor => {
                             if (vendor.documents) {
@@ -1220,6 +1231,14 @@
                 });
             }
 
+            // Wardley Maps
+            if (project.wardleyMaps && project.wardleyMaps.length > 0) {
+                listHtml += `<li class="app-nav-category">Wardley Maps</li>`;
+                project.wardleyMaps.forEach(doc => {
+                    listHtml += `<li><a href="#${doc.path}" data-path="${doc.path}">${doc.title}</a></li>`;
+                });
+            }
+
             // Vendors
             if (project.vendors && project.vendors.length > 0) {
                 listHtml += `<li class="app-nav-category">Vendors</li>`;
@@ -1415,13 +1434,22 @@
                 // Setup keyboard shortcuts
                 setupKeyboardShortcuts();
 
-                // Handle initial hash
+                // Handle initial hash or load default document
                 if (window.location.hash) {
                     const path = window.location.hash.slice(1);
                     loadDocument(path);
 
                     // Mark as active
                     const link = document.querySelector(`a[data-path="${path}"]`);
+                    if (link) link.classList.add('active');
+                } else if (manifest.defaultDocument) {
+                    // Load default document (Architecture Principles) if no hash
+                    const defaultPath = manifest.defaultDocument;
+                    window.location.hash = defaultPath;
+                    loadDocument(defaultPath);
+
+                    // Mark as active
+                    const link = document.querySelector(`a[data-path="${defaultPath}"]`);
                     if (link) link.classList.add('active');
                 }
 
@@ -1442,6 +1470,7 @@
                     if (p.documents) count += p.documents.length;
                     if (p.diagrams) count += p.diagrams.length;
                     if (p.decisions) count += p.decisions.length;
+                    if (p.wardleyMaps) count += p.wardleyMaps.length;
                     if (p.vendors) {
                         p.vendors.forEach(v => {
                             if (v.documents) count += v.documents.length;
