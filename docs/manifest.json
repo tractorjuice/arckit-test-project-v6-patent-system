@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-13T10:53:32.044Z",
+  "generated": "2026-11-17T10:08:56.145Z",
   "repository": {
     "name": "arckit-test-project-v6-patent-system"
   },
@@ -9,475 +9,1754 @@
       "path": "docs/guides/adr.md",
       "title": "Architecture Decision Record (ADR) Guide",
       "category": "Architecture",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/ai-playbook.md",
-      "title": "AI Playbook Assessment Playbook",
+      "title": "AI Playbook for the UK Government: the 10 principles",
       "category": "Compliance",
-      "status": "alpha"
+      "status": "alpha",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/analyze.md",
       "title": "Project Analysis Playbook",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/archify.md",
+      "title": "Interactive Diagram Guide",
+      "category": "Architecture",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/artifact-health.md",
       "title": "Artifact Health Guide",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/atrs.md",
       "title": "Algorithmic Transparency Recording Standard Playbook",
       "category": "Compliance",
-      "status": "alpha"
+      "status": "alpha",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/autoresearch.md",
+      "title": "Autoresearch Guide: Self-Improving Command Prompts",
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
+    },
+    {
+      "path": "docs/guides/aws-documentation-mcp.md",
+      "title": "AWS documentation MCP servers: Knowledge, Documentation, AWS MCP",
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/aws-research.md",
-      "title": "AWS Technology Research Guide",
+      "title": "AWS Well-Architected Framework: the six pillars and AWS research",
       "category": "Integrations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/azure-research.md",
       "title": "Azure Technology Research Guide",
       "category": "Integrations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/backlog.md",
-      "title": "Product Backlog Quick Guide",
+      "title": "Product backlog and user story template",
       "category": "Planning",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/build.md",
+      "title": "Build Harness Guide",
+      "category": "Plugin Operations",
+      "status": "live",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/business-case.md",
       "title": "Strategic Outline Business Case (SOBC) Guide",
       "category": "Planning",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/byo-llm.md",
+      "title": "Bring Your Own LLM",
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/c4-layout-science.md",
       "title": "C4 Layout Science Guide",
       "category": "Architecture",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/codes-of-practice.md",
       "title": "UK Government Codes of Practice — ArcKit Reference Guide",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/competitors.md",
+      "title": "Competitor Landscape Guide",
+      "category": "Procurement",
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/conformance.md",
       "title": "Architecture Conformance Guide",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/custom-commands.md",
+      "title": "Custom Commands Authoring Guide",
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/customize.md",
       "title": "Template Customization Guide",
-      "category": "Getting Started",
-      "status": "live"
+      "category": "Plugin Operations",
+      "status": "live",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/data-mesh-contract.md",
-      "title": "Data Mesh Contract Quick Guide",
+      "title": "Data mesh and data contracts: a data product contract guide",
       "category": "Architecture",
-      "status": "alpha"
+      "status": "alpha",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/data-model.md",
-      "title": "Data Model Quick Guide",
+      "title": "Data model: entity relationship diagram (ERD) and logical model",
       "category": "Architecture",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/data-quality-framework.md",
       "title": "UK Government Data Quality Framework — ArcKit Reference Guide",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/datascout.md",
       "title": "Data Source Discovery Guide",
       "category": "Discovery",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/design-review.md",
       "title": "Design Review Guide",
       "category": "Architecture",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/devops.md",
       "title": "DevOps Strategy Playbook",
       "category": "Operations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/dfd.md",
-      "title": "Data Flow Diagram Guide",
+      "title": "Data flow diagram (DFD): Yourdon-DeMarco symbols and levels",
       "category": "Architecture",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/diagram.md",
-      "title": "Architecture Diagram Guide",
+      "title": "C4 model architecture diagrams: context, container and component",
       "category": "Architecture",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/dld-review.md",
       "title": "Detailed Design Review Playbook",
       "category": "Architecture",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/dos.md",
       "title": "Digital Outcomes and Specialists Playbook",
       "category": "Procurement",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/dpia.md",
-      "title": "Data Protection Impact Assessment (DPIA) Guide",
+      "title": "Data protection impact assessment (DPIA): when you need one and how",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/enterprise-scale.md",
+      "title": "ArcKit at Enterprise Scale",
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/evaluate.md",
       "title": "Vendor Evaluation Playbook",
       "category": "Procurement",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/export-okf.md",
+      "title": "`/arckit:export-okf` - Open Knowledge Format export",
+      "category": "Interoperability",
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/finops.md",
-      "title": "FinOps Strategy Playbook",
+      "title": "FinOps framework: a guide to cloud cost management",
       "category": "Operations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/framework.md",
       "title": "Framework Guide",
       "category": "Architecture",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/gcloud-clarify.md",
       "title": "G-Cloud Clarification Questions Playbook",
       "category": "Procurement",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/gcloud-search.md",
-      "title": "G-Cloud Search Playbook",
+      "title": "G-Cloud 15 (and G-Cloud 14): searching the Digital Marketplace",
       "category": "Procurement",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/gcp-research.md",
-      "title": "Google Cloud Technology Research Guide",
+      "title": "Google Cloud research with the Developer Knowledge MCP server",
       "category": "Integrations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/glossary.md",
       "title": "Glossary Guide",
       "category": "Reporting",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/gov-code-search.md",
+      "title": "Government Code Search Guide",
+      "category": "Discovery",
+      "status": "experimental",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/gov-landscape.md",
+      "title": "Government Code Landscape Analysis Guide",
+      "category": "Discovery",
+      "status": "experimental",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/gov-reuse.md",
+      "title": "Government Code Reuse Assessment Guide",
+      "category": "Discovery",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/govs-007-security.md",
       "title": "GovS 007: Security — ArcKit Reference Guide",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/grants.md",
+      "title": "Innovate UK grants and UK government funding: a research guide",
+      "category": "Discovery",
+      "status": "experimental",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/graph-report.md",
+      "title": "`/arckit:graph-report` — governance metrics dashboard",
+      "category": "Governance",
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/health.md",
       "title": "Health Check Guide",
       "category": "Governance",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/hld-review.md",
       "title": "High-Level Design Review Playbook",
       "category": "Architecture",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/hooks.md",
+      "title": "Hooks Guide",
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/impact.md",
       "title": "Impact Analysis",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/import-okf.md",
+      "title": "`/arckit:import-okf` - Open Knowledge Format import",
+      "category": "Interoperability",
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/init.md",
       "title": "Init Guide",
       "category": "Getting Started",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/jsp-936.md",
-      "title": "JSP 936 AI Assurance Guide",
+      "title": "JSP 936: Dependable AI in Defence and how to evidence it",
       "category": "Compliance",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/knowledge-compounding.md",
       "title": "Knowledge Compounding Guide",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/maturity-model.md",
       "title": "Maturity Model Guide",
       "category": "Governance",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/mcp-servers.md",
       "title": "ArcKit Plugin Setup Guide",
-      "category": "Integrations",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
+    },
+    {
+      "path": "docs/guides/microsoft-learn-mcp.md",
+      "title": "Microsoft Learn MCP server: setup, tools and endpoint",
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/migration.md",
       "title": "File Migration Playbook",
       "category": "Planning",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/mlops.md",
-      "title": "MLOps Strategy Playbook",
+      "title": "MLOps framework: model lifecycle and maturity guide",
       "category": "Operations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/mod-secure.md",
-      "title": "MOD Secure by Design Playbook",
+      "title": "MOD Secure by Design: the 7 principles and assessment",
       "category": "Compliance",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/national-data-strategy.md",
       "title": "UK National Data Strategy — ArcKit Reference Guide",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/navigator.md",
+      "title": "`/arckit:navigator` — what should I do next?",
+      "category": "Governance",
+      "status": "live",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/nl-overlay.md",
+      "title": "Netherlands Public Sector Overlay Guide",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
     },
     {
       "path": "docs/guides/operationalize.md",
       "title": "Operational Readiness Playbook",
       "category": "Operations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/pages.md",
       "title": "GitHub Pages Generator Playbook",
       "category": "Reporting",
-      "status": "alpha"
+      "status": "alpha",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/pinecone-mcp.md",
       "title": "Pinecone MCP Integration Guide",
-      "category": "Integrations",
-      "status": "experimental"
+      "category": "Plugin Operations",
+      "status": "experimental",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/plan.md",
       "title": "Project Plan Playbook",
       "category": "Planning",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/platform-design.md",
       "title": "Platform Strategy Design Guide",
       "category": "Architecture",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/presentation.md",
       "title": "Presentation Guide",
       "category": "Reporting",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/principles-compliance.md",
       "title": "Principles Compliance Guide",
       "category": "Governance",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/principles.md",
       "title": "Architecture Principles Guide",
       "category": "Architecture",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/procurement.md",
       "title": "Vendor Procurement Guide",
       "category": "Procurement",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/productivity.md",
       "title": "Architecture Productivity Guide",
-      "category": "Getting Started",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/remote-control.md",
       "title": "Govern Architecture from Anywhere: Using Claude Code Remote Control with ArcKit",
-      "category": "Getting Started",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/requirements.md",
-      "title": "Requirements Guide",
+      "title": "Non-functional requirements and the business requirements document",
       "category": "Discovery",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/research.md",
       "title": "Technology Research Guide",
       "category": "Discovery",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/risk-management.md",
       "title": "Risk Management Guide",
       "category": "Governance",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/risk.md",
-      "title": "Risk Register Playbook",
+      "title": "Risk register: template and Orange Book guide",
       "category": "Governance",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/roadmap.md",
       "title": "Architecture Roadmap Playbook",
       "category": "Planning",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/score.md",
       "title": "Vendor Scoring",
       "category": "Procurement",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/search.md",
       "title": "Project Search",
       "category": "Governance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/secure.md",
-      "title": "Secure by Design Playbook",
+      "title": "Secure by Design for UK government: the 10 principles and assessment",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/security-hooks.md",
       "title": "Security Hooks Guide",
-      "category": "Compliance",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/service-assessment.md",
-      "title": "GDS Service Assessment Guide",
+      "title": "GDS Service Standard assessment: the 14 points and how to prepare",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/servicenow.md",
-      "title": "ServiceNow Service Design Playbook",
+      "title": "CMDB and ServiceNow service design: a practical guide",
       "category": "Integrations",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/session-memory.md",
+      "title": "Session Memory",
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
     },
     {
       "path": "docs/guides/sobc.md",
-      "title": "Strategic Outline Business Case Playbook",
+      "title": "Business case template: Green Book five case model and SOBC",
       "category": "Planning",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/sow.md",
-      "title": "Statement of Work Playbook",
+      "title": "Statement of work (SOW): template and what to include",
       "category": "Procurement",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/stakeholder-analysis.md",
       "title": "Stakeholder Analysis Guide",
       "category": "Discovery",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/stakeholders.md",
-      "title": "Stakeholder Analysis Playbook",
+      "title": "Stakeholder mapping and analysis: power/interest grid guide",
       "category": "Discovery",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/start.md",
       "title": "Getting Started with ArcKit",
       "category": "Getting Started",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/story.md",
       "title": "Project Story Guide",
       "category": "Reporting",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/strategy.md",
       "title": "Architecture Strategy Playbook",
       "category": "Planning",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/tcop.md",
-      "title": "Technology Code of Practice Playbook",
+      "title": "Technology Code of Practice (TCoP): 13 points and assessment evidence",
       "category": "Compliance",
-      "status": "beta"
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/template-builder.md",
       "title": "Template Builder Guide",
-      "category": "Getting Started",
-      "status": "alpha"
+      "category": "Plugin Operations",
+      "status": "alpha",
+      "section": "Plugin and Extension Operations"
+    },
+    {
+      "path": "docs/guides/tenders.md",
+      "title": "Find a Tender and Contracts Finder: UK public contract award data",
+      "category": "Procurement",
+      "status": "beta",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/traceability.md",
-      "title": "Traceability Guide",
+      "title": "Requirements traceability matrix: guide and template",
       "category": "Governance",
-      "status": "live"
+      "status": "live",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/trello.md",
       "title": "Trello Export Quick Guide",
       "category": "Integrations",
-      "status": "experimental"
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/upgrading.md",
       "title": "Upgrading ArcKit",
-      "category": "Getting Started",
-      "status": "beta"
+      "category": "Plugin Operations",
+      "status": "beta",
+      "section": "Plugin and Extension Operations"
+    },
+    {
+      "path": "docs/guides/wardley-climate.md",
+      "title": "Climate Assessment Playbook",
+      "category": "Wardley Mapping",
+      "status": "experimental",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/wardley-doctrine.md",
+      "title": "Doctrine Assessment Playbook",
+      "category": "Wardley Mapping",
+      "status": "experimental",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/wardley-gameplay.md",
+      "title": "Gameplay Analysis Playbook",
+      "category": "Wardley Mapping",
+      "status": "experimental",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/wardley-value-chain.md",
+      "title": "Value Chain Decomposition Playbook",
+      "category": "Wardley Mapping",
+      "status": "experimental",
+      "section": "Core Workflows"
     },
     {
       "path": "docs/guides/wardley.md",
-      "title": "Wardley Mapping Playbook",
-      "category": "Architecture",
-      "status": "experimental"
+      "title": "Wardley mapping: value chains, evolution and build vs buy",
+      "category": "Wardley Mapping",
+      "status": "experimental",
+      "section": "Core Workflows"
+    },
+    {
+      "path": "docs/guides/agent-design.md",
+      "title": "AI Agent Design Playbook",
+      "category": "AI Agent Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "AI Agent Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agent-governance.md",
+      "title": "AI Agent Governance Playbook",
+      "category": "AI Agent Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "AI Agent Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agent-integration.md",
+      "title": "AI Agent Integration Playbook",
+      "category": "AI Agent Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "AI Agent Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agent-inventory.md",
+      "title": "AI Agent Inventory Playbook",
+      "category": "AI Agent Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "AI Agent Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agent-maturity.md",
+      "title": "AI Agent Maturity Playbook",
+      "category": "AI Agent Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "AI Agent Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agent-security.md",
+      "title": "AI Agent Security Playbook",
+      "category": "AI Agent Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "AI Agent Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/arc42-concepts.md",
+      "title": "arc42 Crosscutting Concepts Playbook",
+      "category": "arc42 Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "arc42 Overlay"
+    },
+    {
+      "path": "docs/guides/arc42-debt.md",
+      "title": "arc42 Technical Debt Register Playbook",
+      "category": "arc42 Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "arc42 Overlay"
+    },
+    {
+      "path": "docs/guides/arc42-handover.md",
+      "title": "arc42 SDD Handover Playbook",
+      "category": "arc42 Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "arc42 Overlay"
+    },
+    {
+      "path": "docs/guides/arc42-quality.md",
+      "title": "arc42 Quality Scenarios Playbook",
+      "category": "arc42 Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "arc42 Overlay"
+    },
+    {
+      "path": "docs/guides/arc42.md",
+      "title": "arc42 Architecture Description Playbook",
+      "category": "arc42 Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "arc42 Overlay"
+    },
+    {
+      "path": "docs/guides/at-barrierefreiheit.md",
+      "title": "Austrian Accessibility (BaFG / WZG) Playbook",
+      "category": "Community overlays - Austria",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Austria"
+    },
+    {
+      "path": "docs/guides/at-bvergg.md",
+      "title": "Austrian Federal Procurement Act (BVergG 2018) Playbook",
+      "category": "Community overlays - Austria",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Austria"
+    },
+    {
+      "path": "docs/guides/at-dsgvo.md",
+      "title": "Austrian DSG / DSGVO Compliance Playbook",
+      "category": "Community overlays - Austria",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Austria"
+    },
+    {
+      "path": "docs/guides/at-nisg.md",
+      "title": "Austrian NIS Act (NISG) Compliance Playbook",
+      "category": "Community overlays - Austria",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Austria"
+    },
+    {
+      "path": "docs/guides/au-ai-assurance.md",
+      "title": "Australian AI Assurance Baseline Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-disp-attestation.md",
+      "title": "Australian DISP Member Self-Attestation Pack Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-dss.md",
+      "title": "Australian DTA Digital Service Standard Conformance Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-e8-posture.md",
+      "title": "Australian Essential Eight Maturity Posture Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-ism-controls.md",
+      "title": "Australian ISM Statement of Applicability Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-ndb-playbook.md",
+      "title": "Australian Notifiable Data Breach Response Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-ot-security.md",
+      "title": "AU OT Security",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-pia.md",
+      "title": "Australian Privacy Impact Assessment Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-pspf.md",
+      "title": "Australian Protective Security Policy Framework Scorecard Playbook",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-soci-cirmp.md",
+      "title": "AU SOCI CIRMP",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-aescsf.md",
+      "title": "AU AESCSF Maturity Assessment",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/au-energy-compliance.md",
+      "title": "AU Energy Compliance Pack",
+      "category": "Australian Federal / Energy Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Australian Federal / Energy Overlay"
+    },
+    {
+      "path": "docs/guides/ca-aia.md",
+      "title": "Canada Algorithmic Impact Assessment Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-atip.md",
+      "title": "Canada ATIP Reconciliation Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-charter.md",
+      "title": "Canada Charter Rights Design Review Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-cloud-residency.md",
+      "title": "Canada Sovereign Cloud Residency Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-fitaa.md",
+      "title": "Canada FITAA Compliance Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-gc-digital-standards.md",
+      "title": "Canada GC Digital Standards Conformance Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-itsg-33.md",
+      "title": "Canada ITSG-33 Statement of Applicability Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-ocap.md",
+      "title": "Canada First Nations OCAP® Sovereignty Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-ola.md",
+      "title": "Canada Official Languages Act Review Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-pia.md",
+      "title": "Canada Privacy Impact Assessment Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-pspc.md",
+      "title": "Canada Federal Procurement Strategy Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/ca-soia.md",
+      "title": "Canada Foreign Interference and Security of Information Act Handling Playbook",
+      "category": "Canada Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Canada Federal Overlay"
+    },
+    {
+      "path": "docs/guides/eu-ai-act.md",
+      "title": "EU AI Act Compliance Assessment Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-cloud-sovereignty.md",
+      "title": "EU Cloud Sovereignty Framework Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-cra.md",
+      "title": "EU Cyber Resilience Act Compliance Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-data-act.md",
+      "title": "EU Data Act Compliance Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-dora.md",
+      "title": "EU DORA Compliance Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-dsa.md",
+      "title": "EU Digital Services Act Compliance Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-nis2.md",
+      "title": "EU NIS2 Directive Compliance Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/eu-rgpd.md",
+      "title": "EU GDPR Compliance Assessment Playbook",
+      "category": "Community overlays - EU",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - EU"
+    },
+    {
+      "path": "docs/guides/create.md",
+      "title": "FDE Site Generator Guide",
+      "category": "FDE Site Generator",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "FDE Site Generator"
+    },
+    {
+      "path": "docs/guides/fr-algorithme-public.md",
+      "title": "French Public Algorithm Transparency Notice Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-anssi-carto.md",
+      "title": "ANSSI IS Cartography Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-anssi.md",
+      "title": "ANSSI Security Posture Assessment Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-code-reuse.md",
+      "title": "French Public Code Reuse Assessment Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-dinum.md",
+      "title": "DINUM Digital Standards Assessment Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-dr.md",
+      "title": "Diffusion Restreinte (DR) Handling Assessment Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-ebios.md",
+      "title": "EBIOS Risk Manager Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-irn.md",
+      "title": "IRN — Indice de Résilience Numérique Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-marche-public.md",
+      "title": "French Public Procurement Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-pssi.md",
+      "title": "PSSI (Information System Security Policy) Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-rgpd.md",
+      "title": "French GDPR / CNIL Compliance Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/fr-secnumcloud.md",
+      "title": "SecNumCloud Qualification Assessment Playbook",
+      "category": "Community overlays - France",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - France"
+    },
+    {
+      "path": "docs/guides/nl-bio.md",
+      "title": "BIO2 Conformance Playbook",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
+    },
+    {
+      "path": "docs/guides/nl-cloud.md",
+      "title": "Rijksbreed Cloudbeleid Compliance Playbook",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
+    },
+    {
+      "path": "docs/guides/nl-exit.md",
+      "title": "Cloud Exit Plan (Clause 3.2) Playbook",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
+    },
+    {
+      "path": "docs/guides/nl-gemma.md",
+      "title": "GEMMA Alignment Playbook",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
+    },
+    {
+      "path": "docs/guides/nl-nora.md",
+      "title": "NORA Conformance Assessment Playbook",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
+    },
+    {
+      "path": "docs/guides/nl-tbb.md",
+      "title": "Te Beschermen Belangen (TBB) Determination Playbook",
+      "category": "Community overlays - Netherlands",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Community overlays - Netherlands"
+    },
+    {
+      "path": "docs/guides/agile-governance.md",
+      "title": "O-AA Agile Governance Playbook",
+      "category": "Open Agile Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Open Agile Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agile-security.md",
+      "title": "O-AA Agile Security Playbook",
+      "category": "Open Agile Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Open Agile Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/agile-strategy.md",
+      "title": "O-AA Agile Strategy Playbook",
+      "category": "Open Agile Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Open Agile Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/oaa-adm-lite.md",
+      "title": "O-AA ADM Lite Playbook",
+      "category": "Open Agile Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Open Agile Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/product-architecture.md",
+      "title": "O-AA Product Architecture Playbook",
+      "category": "Open Agile Architecture Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Open Agile Architecture Overlay"
+    },
+    {
+      "path": "docs/guides/repo-audit.md",
+      "title": "Codebase Audit Guide",
+      "category": "Repository Plugin",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Repository Plugin"
+    },
+    {
+      "path": "docs/guides/repo-docs.md",
+      "title": "Repository Documentation Wiki Guide",
+      "category": "Repository Plugin",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "Repository Plugin"
+    },
+    {
+      "path": "docs/guides/adm-preliminary.md",
+      "title": "TOGAF ADM Preliminary Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/application-inventory.md",
+      "title": "Application Inventory Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/application-rationalization.md",
+      "title": "Application Rationalization Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/architecture-board.md",
+      "title": "Architecture Board Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/architecture-change.md",
+      "title": "Architecture Change Request Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/architecture-repository.md",
+      "title": "Architecture Repository Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/business-capability-map.md",
+      "title": "Business Capability Map Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/gap-analysis.md",
+      "title": "TOGAF Gap Analysis Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/transition-architecture.md",
+      "title": "Transition Architecture Playbook",
+      "category": "TOGAF ADM Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "TOGAF ADM Overlay"
+    },
+    {
+      "path": "docs/guides/uae-ai-autonomy-tier.md",
+      "title": "UAE AI Autonomy Tier Posture Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-ai-charter.md",
+      "title": "UAE Charter for AI Compliance Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-classification.md",
+      "title": "UAE Smart Data Classification Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-cloud-residency.md",
+      "title": "UAE Sovereign Cloud Residency Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-data-sharing.md",
+      "title": "UAE Data Sharing Agreement Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-digital-records.md",
+      "title": "UAE Digital Records Plan Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-ias.md",
+      "title": "UAE Information Assurance Standard (IAS) Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-pdpl.md",
+      "title": "UAE PDPL Compliance Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-priorities-alignment.md",
+      "title": "UAE National Priorities Alignment Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-procurement.md",
+      "title": "UAE Federal Procurement Strategy Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-uaepass.md",
+      "title": "UAE Pass Integration Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uae-zero-bureaucracy.md",
+      "title": "UAE Zero Bureaucracy & Code for Government Services Playbook",
+      "category": "UAE Federal Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UAE Federal Overlay"
+    },
+    {
+      "path": "docs/guides/uk-fs-consumer-duty.md",
+      "title": "Consumer Duty Annual Board Report (`/arckit:uk-fs-consumer-duty`)",
+      "category": "UK Finance Payments Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK Finance Payments Overlay"
+    },
+    {
+      "path": "docs/guides/uk-fs-ctp-dependency.md",
+      "title": "Critical Third Party Dependency Assessment (`/arckit:uk-fs-ctp-dependency`)",
+      "category": "UK Finance Payments Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK Finance Payments Overlay"
+    },
+    {
+      "path": "docs/guides/uk-fs-safeguarding.md",
+      "title": "EMI / PI Safeguarding Assessment (`/arckit:uk-fs-safeguarding`)",
+      "category": "UK Finance Payments Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK Finance Payments Overlay"
+    },
+    {
+      "path": "docs/guides/uk-fs-sca-rts.md",
+      "title": "SCA-RTS Exemption Design (`/arckit:uk-fs-sca-rts`)",
+      "category": "UK Finance Payments Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK Finance Payments Overlay"
+    },
+    {
+      "path": "docs/guides/declaration.md",
+      "title": "G-Cloud Supplier Declaration Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/gcloud-competitors.md",
+      "title": "G-Cloud Competitor Benchmark Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/lot-questions.md",
+      "title": "G-Cloud Lot Questions Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/pricing.md",
+      "title": "G-Cloud Pricing Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/review.md",
+      "title": "G-Cloud Submission Review Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/sdd-lot1a.md",
+      "title": "G-Cloud Lot 1a Service Definition Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/sdd-lot1b.md",
+      "title": "G-Cloud Lot 1b Service Definition Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/sdd-lot2a.md",
+      "title": "G-Cloud Lot 2a Service Definition Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/sdd-lot2b.md",
+      "title": "G-Cloud Lot 2b Service Definition Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/sdd-lot3.md",
+      "title": "G-Cloud Lot 3 Service Definition Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/security.md",
+      "title": "G-Cloud Security Assertions Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/service-design.md",
+      "title": "G-Cloud Service Design Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/social-value.md",
+      "title": "G-Cloud Social Value Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/submission-pack.md",
+      "title": "G-Cloud Submission Pack Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/supplier-profile.md",
+      "title": "G-Cloud Supplier Profile Guide",
+      "category": "UK G-Cloud Supplier Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK G-Cloud Supplier Overlay"
+    },
+    {
+      "path": "docs/guides/legacy-assessment.md",
+      "title": "Legacy IT assessment",
+      "category": "UK Legacy IT Assessment Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK Legacy IT Assessment Overlay"
+    },
+    {
+      "path": "docs/guides/uk-mdr-classification.md",
+      "title": "UK + EU MDR SaMD / AIaMD Classification Guide",
+      "category": "UK NHS Clinical Safety Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK NHS Clinical Safety Overlay"
+    },
+    {
+      "path": "docs/guides/uk-nhs-dcb0129.md",
+      "title": "NHS DCB0129 Manufacturer Clinical Safety Case Guide",
+      "category": "UK NHS Clinical Safety Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK NHS Clinical Safety Overlay"
+    },
+    {
+      "path": "docs/guides/uk-nhs-dcb0160.md",
+      "title": "NHS DCB0160 Deployer Clinical Safety Case Guide",
+      "category": "UK NHS Clinical Safety Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK NHS Clinical Safety Overlay"
+    },
+    {
+      "path": "docs/guides/uk-nhs-dtac.md",
+      "title": "NHS DTAC Assessment Guide",
+      "category": "UK NHS Clinical Safety Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "UK NHS Clinical Safety Overlay"
+    },
+    {
+      "path": "docs/guides/us-ai-impact.md",
+      "title": "US AI Impact Assessment (OMB M-25-21 / M-25-22)",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-ai-rmf.md",
+      "title": "US NIST AI RMF Assessment",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-fedramp-readiness.md",
+      "title": "US FedRAMP Readiness Self-Assessment",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-fedramp-ssp.md",
+      "title": "US FedRAMP System Security Plan",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-fisma-categorization.md",
+      "title": "US FIPS 199 System Categorization",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-icam.md",
+      "title": "US ICAM Architecture",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-nist-800-53.md",
+      "title": "US NIST SP 800-53 Rev 5 Tailored Control Set",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-privacy-pia.md",
+      "title": "US Privacy Impact Assessment (E-Gov §208)",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-sbom-eo-14028.md",
+      "title": "US EO 14028 Secure-Software Self-Attestation + SBOM",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
+    },
+    {
+      "path": "docs/guides/us-zero-trust.md",
+      "title": "US CISA ZTMM v2.0 Maturity Posture",
+      "category": "USA Federal Civilian Overlay",
+      "status": "community",
+      "section": "Overlay Packs",
+      "pack": "USA Federal Civilian Overlay"
     }
   ],
   "roleGuides": [
@@ -590,12 +1869,54 @@
       "commandCount": 5
     }
   ],
+  "guideSectionOrder": [
+    "Core Workflows",
+    "Plugin and Extension Operations",
+    "Overlay Packs",
+    "Community Guides",
+    "Other / Uncategorised"
+  ],
+  "guideCategoryOrder": [
+    "Getting Started",
+    "Discovery",
+    "Planning",
+    "Architecture",
+    "Wardley Mapping",
+    "Governance",
+    "Compliance",
+    "Operations",
+    "Procurement",
+    "Interoperability",
+    "Integrations",
+    "Reporting",
+    "Plugin Operations",
+    "AI Agent Architecture Overlay",
+    "FDE Site Generator",
+    "Repository Plugin",
+    "TOGAF ADM Overlay",
+    "Open Agile Architecture Overlay",
+    "arc42 Overlay",
+    "Australian Federal / Energy Overlay",
+    "Community overlays - Austria",
+    "Canada Federal Overlay",
+    "Community overlays - EU",
+    "Community overlays - France",
+    "Community overlays - Netherlands",
+    "UAE Federal Overlay",
+    "UK G-Cloud Supplier Overlay",
+    "UK Finance Payments Overlay",
+    "UK NHS Clinical Safety Overlay",
+    "USA Federal Civilian Overlay",
+    "Community",
+    "Other"
+  ],
   "global": [
     {
       "path": "projects/000-global/ARC-000-PRIN-v1.0.md",
       "title": "Architecture Principles",
       "category": "Architecture",
       "documentId": "ARC-000-PRIN-v1.0",
+      "extension": ".md",
       "isDefault": true
     }
   ],
@@ -604,6 +1925,8 @@
     "STKE": "Discovery",
     "RSCH": "Discovery",
     "DSCT": "Discovery",
+    "TNDR": "Discovery",
+    "CMPT": "Discovery",
     "SOBC": "Planning",
     "PLAN": "Planning",
     "ROAD": "Planning",
@@ -614,17 +1937,50 @@
     "DLDR": "Architecture",
     "DATA": "Architecture",
     "WARD": "Architecture",
+    "WDOC": "Architecture",
+    "WGAM": "Architecture",
+    "WCLM": "Architecture",
+    "WVCH": "Architecture",
     "DIAG": "Architecture",
     "DFD": "Architecture",
     "ADR": "Architecture",
     "PLAT": "Architecture",
+    "ADMP": "Architecture",
+    "BPCM": "Architecture",
+    "APP": "Architecture",
+    "APPR": "Architecture",
+    "GAPA": "Governance",
+    "TRANS": "Planning",
+    "BORD": "Governance",
+    "ACHG": "Governance",
+    "REPO": "Architecture",
+    "AAGI": "Architecture",
+    "AAGR": "Architecture",
+    "AAOV": "Governance",
+    "AAIN": "Architecture",
+    "AASE": "Governance",
+    "AAMT": "Governance",
+    "OASTR": "Planning",
+    "OAPR": "Architecture",
+    "OAAL": "Architecture",
+    "OASEC": "Governance",
+    "OAGOV": "Governance",
+    "ARC42": "Architecture",
+    "QUAL": "Architecture",
+    "CONC": "Architecture",
+    "DEBT": "Architecture",
+    "SDDH": "Planning",
     "RISK": "Governance",
     "TRAC": "Governance",
     "PRIN-COMP": "Governance",
     "CONF": "Governance",
     "PRES": "Reporting",
+    "DECK": "Reporting",
     "ANAL": "Governance",
     "GAPS": "Governance",
+    "CDAU": "Governance",
+    "GLOS": "Governance",
+    "FWRK": "Governance",
     "TCOP": "Compliance",
     "SECD": "Compliance",
     "SECD-MOD": "Compliance",
@@ -632,6 +1988,7 @@
     "ATRS": "Compliance",
     "DPIA": "Compliance",
     "JSP936": "Compliance",
+    "LEGACY": "Compliance",
     "SVCASS": "Compliance",
     "SNOW": "Operations",
     "DEVOPS": "Operations",
@@ -643,12 +2000,110 @@
     "DOS": "Procurement",
     "GCLD": "Procurement",
     "GCLC": "Procurement",
+    "SUPP": "Procurement",
+    "SVCD": "Procurement",
+    "SDD": "Procurement",
+    "DECL": "Procurement",
+    "PRIC": "Procurement",
+    "SECA": "Procurement",
+    "GCMP": "Procurement",
+    "GCRV": "Procurement",
+    "SOCV": "Procurement",
+    "LOTQ": "Procurement",
+    "RATE": "Procurement",
     "DMC": "Procurement",
     "VEND": "Procurement",
     "AWRS": "Research",
     "AZRS": "Research",
     "GCRS": "Research",
-    "STORY": "Reporting"
+    "GOVR": "Research",
+    "GCSR": "Research",
+    "GLND": "Research",
+    "GRNT": "Research",
+    "STORY": "Reporting",
+    "RGPD": "Compliance",
+    "NIS2": "Compliance",
+    "AIACT": "Compliance",
+    "DORA": "Compliance",
+    "CRA": "Compliance",
+    "DSA": "Compliance",
+    "DATAACT": "Compliance",
+    "EUCSF": "Compliance",
+    "IRN": "Governance",
+    "CNIL": "Compliance",
+    "SECNUM": "Compliance",
+    "MARPUB": "Procurement",
+    "DINUM": "Compliance",
+    "EBIOS": "Governance",
+    "ANSSI": "Compliance",
+    "CARTO": "Architecture",
+    "DR": "Compliance",
+    "ALGO": "Compliance",
+    "PSSI": "Compliance",
+    "REUSE": "Procurement",
+    "ATBFR": "Compliance",
+    "ATDSG": "Compliance",
+    "ATNISG": "Compliance",
+    "BVERGG": "Procurement",
+    "PDPL": "Compliance",
+    "IAS": "Compliance",
+    "CRES": "Architecture",
+    "CLAS": "Governance",
+    "UPASS": "Architecture",
+    "ZBUR": "Governance",
+    "DREC": "Governance",
+    "DSHR": "Governance",
+    "NPRA": "Governance",
+    "AICH": "Compliance",
+    "AUTI": "Architecture",
+    "FPRO": "Procurement",
+    "FITAA": "Compliance",
+    "PIA": "Compliance",
+    "ATIP": "Compliance",
+    "AIA": "Compliance",
+    "CHRT": "Governance",
+    "ITSG": "Architecture",
+    "SOIA": "Compliance",
+    "CACR": "Architecture",
+    "DIGSTD": "Governance",
+    "OLA": "Compliance",
+    "PROC": "Procurement",
+    "OCAP": "Governance",
+    "FIPS199": "Compliance",
+    "NIST": "Architecture",
+    "FRSSP": "Compliance",
+    "FRRR": "Compliance",
+    "ZTA": "Architecture",
+    "ICAM": "Architecture",
+    "AIRMF": "Compliance",
+    "AIIA": "Compliance",
+    "USPIA": "Compliance",
+    "SBOM": "Compliance",
+    "AUE8": "Compliance",
+    "AUISM": "Compliance",
+    "AUPIA": "Compliance",
+    "AUNDB": "Compliance",
+    "AUOT": "Compliance",
+    "AUSOCI": "Compliance",
+    "AUAESCSF": "Compliance",
+    "AUENERGY": "Compliance",
+    "AUDSS": "Governance",
+    "AUPSPF": "Governance",
+    "AUAIA": "Compliance",
+    "AUDISP": "Compliance",
+    "RBCLOUD": "Compliance",
+    "TBB": "Compliance",
+    "BIO2": "Compliance",
+    "NLEXIT": "Governance",
+    "NORA": "Governance",
+    "GEMMA": "Architecture",
+    "FSSCA": "Compliance",
+    "FSSAFE": "Compliance",
+    "FSCD": "Compliance",
+    "FSCTP": "Compliance",
+    "NHSDTAC": "Compliance",
+    "NHSMDR": "Compliance",
+    "MMOD": "Governance"
   },
   "projects": [
     {
@@ -659,50 +2114,58 @@
           "path": "projects/001-patent-management-system-for-the-intellectual-property-office/ARC-001-ANAL-v1.0.md",
           "title": "Analysis Report",
           "category": "Governance",
-          "documentId": "ARC-001-ANAL-v1.0"
+          "documentId": "ARC-001-ANAL-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-patent-management-system-for-the-intellectual-property-office/ARC-001-EVAL-v1.0.md",
           "title": "Evaluation Criteria",
           "category": "Procurement",
-          "documentId": "ARC-001-EVAL-v1.0"
+          "documentId": "ARC-001-EVAL-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-patent-management-system-for-the-intellectual-property-office/ARC-001-REQ-v1.0.md",
           "title": "Requirements",
           "category": "Discovery",
-          "documentId": "ARC-001-REQ-v1.0"
+          "documentId": "ARC-001-REQ-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-patent-management-system-for-the-intellectual-property-office/ARC-001-SOW-v1.0.md",
           "title": "Statement of Work",
           "category": "Procurement",
-          "documentId": "ARC-001-SOW-v1.0"
+          "documentId": "ARC-001-SOW-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-patent-management-system-for-the-intellectual-property-office/ARC-001-STKE-v1.0.md",
           "title": "Stakeholder Analysis",
           "category": "Discovery",
-          "documentId": "ARC-001-STKE-v1.0"
+          "documentId": "ARC-001-STKE-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-patent-management-system-for-the-intellectual-property-office/ARC-001-TCOP-v1.0.md",
           "title": "TCoP Assessment",
           "category": "Compliance",
-          "documentId": "ARC-001-TCOP-v1.0"
+          "documentId": "ARC-001-TCOP-v1.0",
+          "extension": ".md"
         },
         {
           "path": "projects/001-patent-management-system-for-the-intellectual-property-office/ARC-001-TRAC-v1.0.md",
           "title": "Traceability Matrix",
           "category": "Governance",
-          "documentId": "ARC-001-TRAC-v1.0"
+          "documentId": "ARC-001-TRAC-v1.0",
+          "extension": ".md"
         }
       ],
       "wardleyMaps": [
         {
           "path": "projects/001-patent-management-system-for-the-intellectual-property-office/wardley-maps/ARC-001-WARD-001-v1.0.md",
           "title": "Wardley Map: Patent Management System Procurement Strategy",
-          "documentId": "ARC-001-WARD-001-v1.0"
+          "documentId": "ARC-001-WARD-001-v1.0",
+          "extension": ".md"
         }
       ]
     }
@@ -717,7 +2180,35 @@
         "status": "APPROVED",
         "severity": "MEDIUM",
         "createdDate": "2025-10-15",
-        "lastModified": "2026-01-26"
+        "lastModified": "2026-01-26",
+        "version": "1.0",
+        "owner": "Enterprise Architecture Team",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-GLB-PRIN-v2.1",
+          "Document Type": "Enterprise Architecture Principles",
+          "Project": "Patent Management System (Global)",
+          "Classification": "OFFICIAL",
+          "Status": "APPROVED",
+          "Version": "2.1",
+          "Created Date": "2025-10-15",
+          "Last Modified": "2026-01-26",
+          "Review Cycle": "Annual",
+          "Next Review Date": "2027-01-26",
+          "Owner": "Enterprise Architecture Team",
+          "Reviewed By": "Architecture Review Board (2026-01-25)",
+          "Approved By": "CTO/CIO (PENDING)",
+          "Distribution": "All Engineering Teams, Patent Examiners, Contractors"
+        },
+        "reqIds": [],
+        "health": {
+          "stale": true,
+          "draft": false,
+          "orphan": true,
+          "ageDays": 295
+        }
       },
       "ARC-001-ANAL-v1.0": {
         "type": "ANAL",
@@ -727,7 +2218,68 @@
         "status": "DRAFT",
         "severity": "HIGH",
         "createdDate": "2026-01-22",
-        "lastModified": "2026-01-26"
+        "lastModified": "2026-01-26",
+        "version": "1.0",
+        "owner": "Enterprise Architecture Team",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-ANLY-v2.0",
+          "Document Type": "Architecture Governance Analysis Report",
+          "Project": "Patent Management System for IPO (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "2.0",
+          "Created Date": "2026-01-22",
+          "Last Modified": "2026-01-26",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-02-26",
+          "Owner": "Enterprise Architecture Team",
+          "Reviewed By": "[PENDING]",
+          "Approved By": "[PENDING]",
+          "Distribution": "Project Team, Architecture Team, IPO Executive Team",
+          "TOTAL": "**51**"
+        },
+        "reqIds": [
+          "FR-002",
+          "FR-003",
+          "DR-001",
+          "DR-007",
+          "BR-002",
+          "NFR-S-001",
+          "NFR-S-002",
+          "NFR-A-001",
+          "NFR-A-003",
+          "FR-001",
+          "FR-008",
+          "INT-001",
+          "INT-005",
+          "NFR-SEC-001",
+          "NFR-SEC-005",
+          "NFR-C-003",
+          "NFR-M-001",
+          "NFR-M-002",
+          "NFR-M-003",
+          "NFR-C-001",
+          "DR-004",
+          "DR-005",
+          "BR-005",
+          "NFR-P-001",
+          "NFR-P-002",
+          "NFR-C-004",
+          "NFR-U-001",
+          "NFR-U-002",
+          "NFR-SEC-002",
+          "NFR-SEC-003",
+          "NFR-SEC-004"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 295
+        }
       },
       "ARC-001-EVAL-v1.0": {
         "type": "EVAL",
@@ -737,7 +2289,104 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2025-10-15",
-        "lastModified": "2026-01-26"
+        "lastModified": "2026-01-26",
+        "version": "1.0",
+        "owner": "Dr. Emily Roberts (Enterprise Architect)",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-EVAL-v2.0",
+          "Document Type": "Vendor Evaluation Framework",
+          "Project": "Patent Management System for the UK Intellectual Property Office (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "2.0",
+          "Created Date": "2025-10-15",
+          "Last Modified": "2026-01-26",
+          "Review Cycle": "On-Demand",
+          "Next Review Date": "2026-02-28",
+          "Owner": "Dr. Emily Roberts (Enterprise Architect)",
+          "Reviewed By": "[PENDING]",
+          "Approved By": "[PENDING]",
+          "Distribution": "Evaluation Committee, Procurement Team, Architecture Team",
+          "MQ-1": "Active G-Cloud 14 Framework listing",
+          "MQ-2": "Minimum 2 UK central government references (last 3 years)",
+          "MQ-3": "At least 1 OFFICIAL-SENSITIVE project reference",
+          "MQ-4": "GDS Service Standard experience",
+          "MQ-5": "Cyber Essentials Plus certification (current, <12 months)",
+          "MQ-6": "ISO 27001 certification",
+          "MQ-7": "ITHC penetration test evidence (last 2 years, NCSC-approved)",
+          "MQ-8": "AWS Advanced Consulting Partner (or equivalent Azure/GCP govt cloud tier)",
+          "MQ-9": "Minimum 3 AWS Certified Solutions Architects on proposed team",
+          "MQ-10": "Minimum 2 AWS Certified Security Specialists on proposed team",
+          "MQ-11": "WCAG 2.2 Level AA project evidence (minimum 2 references)",
+          "MQ-12": "Accessibility specialists with IAAP certifications",
+          "MQ-13": "Patent/IP/legal document management experience (minimum 1 reference)",
+          "MQ-14": "Understanding of WIPO ST.96, PCT, EPO OPS",
+          "MQ-15": "Company financial statements (last 2 years)",
+          "MQ-16": "Minimum annual turnover £15M (or parent company guarantee)",
+          "MQ-17": "Professional indemnity insurance £10M",
+          "MQ-18": "Employer's liability insurance £10M",
+          "MQ-19": "Public liability insurance £10M",
+          "MQ-20": "Commitment to BPSS clearance for all personnel",
+          "MQ-21": "Commitment to SC clearance for OFFICIAL-SENSITIVE access",
+          "MQ-22": "UK-based delivery team (majority FTE in UK)",
+          "MQ-23": "Proposal submitted on time (2025-11-30 17:00 GMT)",
+          "MQ-24": "Proposal follows required format (PDF, max 100 pages)",
+          "MQ-25": "All required proposal sections completed",
+          "MQ-26": "Cost proposal separate from technical proposal",
+          "MQ-27": "Key personnel CVs included (10 roles specified)",
+          "MQ-28": "Minimum 3 contactable references provided",
+          "1. Technical Approach and Solution Design": "42%",
+          "2. Delivery Methodology and Project Approach": "17%",
+          "3. Team Qualifications and Experience": "25%",
+          "4. Relevant Experience and References": "16%",
+          "TOTAL TECHNICAL SCORE": "**100%**",
+          "1.1 Architecture Quality": "8",
+          "1.2 Technology Stack": "5",
+          "1.3 Scalability & Performance": "4",
+          "1.4 Security & Compliance": "5",
+          "1.5 Integration Approach": "3",
+          "2.1 Development Methodology": "3",
+          "2.2 Project Timeline & Phasing": "3",
+          "2.3 Risk Management": "2",
+          "2.4 Quality Assurance": "2",
+          "3.1 Key Personnel Qualifications": "6",
+          "3.2 Team Size & Allocation": "3",
+          "3.3 Domain Expertise": "3",
+          "3.4 Technology Expertise": "3",
+          "4.1 Reference Project Relevance": "5",
+          "4.2 Industry Experience": "3",
+          "4.3 Innovation & Thought Leadership": "2",
+          "Excellent (90-100%)": "Exceeds expectations; innovative approach; demonstrates deep expertise; minimal risks",
+          "Good (75-89%)": "Meets all expectations; sound approach; minor concerns requiring clarification",
+          "Adequate (60-74%)": "Meets most expectations; workable approach; some concerns or gaps",
+          "Weak (40-59%)": "Meets minimum expectations; significant concerns; substantial gaps or risks",
+          "Unacceptable (0-39%)": "Does not meet expectations; major flaws; unworkable approach",
+          "Total": "**£[X]**"
+        },
+        "reqIds": [
+          "NFR-P-001",
+          "NFR-P-002",
+          "NFR-S-001",
+          "NFR-C-003",
+          "NFR-C-001",
+          "NFR-SEC-001",
+          "NFR-SEC-004",
+          "INT-001",
+          "INT-002",
+          "INT-003",
+          "INT-005",
+          "NFR-M-003",
+          "NFR-C-004"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 295
+        }
       },
       "ARC-001-REQ-v1.0": {
         "type": "REQ",
@@ -747,7 +2396,81 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2025-10-15",
-        "lastModified": "2026-01-26"
+        "lastModified": "2026-01-26",
+        "version": "1.0",
+        "owner": "Enterprise Architecture Team",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-REQ-v2.0",
+          "Document Type": "Business and Technical Requirements",
+          "Project": "Patent Management System for IPO (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "2.0",
+          "Created Date": "2025-10-15",
+          "Last Modified": "2026-01-26",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-04-26",
+          "Owner": "Enterprise Architecture Team",
+          "Reviewed By": "[PENDING]",
+          "Approved By": "[PENDING]",
+          "Distribution": "Project Team, Architecture Team, IPO Executive Team",
+          "Total Capital": "**£7,000,000**",
+          "Total Annual OpEx": "**£1,700,000**"
+        },
+        "reqIds": [
+          "BR-001",
+          "BR-002",
+          "BR-003",
+          "BR-004",
+          "BR-005",
+          "BR-006",
+          "FR-001",
+          "INT-003",
+          "INT-004",
+          "INT-005",
+          "FR-002",
+          "FR-003",
+          "INT-001",
+          "INT-002",
+          "FR-004",
+          "NFR-SEC-001",
+          "FR-005",
+          "FR-006",
+          "FR-007",
+          "FR-008",
+          "NFR-P-001",
+          "NFR-P-002",
+          "NFR-A-001",
+          "NFR-A-002",
+          "NFR-A-003",
+          "NFR-S-001",
+          "NFR-S-002",
+          "NFR-SEC-002",
+          "NFR-SEC-003",
+          "NFR-SEC-004",
+          "NFR-SEC-005",
+          "NFR-C-001",
+          "NFR-C-002",
+          "NFR-C-003",
+          "NFR-C-004",
+          "NFR-U-001",
+          "NFR-U-002",
+          "NFR-M-001",
+          "NFR-M-002",
+          "NFR-M-003",
+          "NFR-I-001",
+          "NFR-I-002",
+          "NFR-I-003"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 295
+        }
       },
       "ARC-001-SOW-v1.0": {
         "type": "SOW",
@@ -757,7 +2480,99 @@
         "status": "OPEN FOR TENDER",
         "severity": "LOW",
         "createdDate": "2025-10-15",
-        "lastModified": "2026-01-26"
+        "lastModified": "2026-01-26",
+        "version": "1.0",
+        "owner": "Tim Moss (Senior Responsible Owner)",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-SOW-v2.0",
+          "Document Type": "Statement of Work / Request for Proposal (RFP)",
+          "Project": "Patent Management System for the UK Intellectual Property Office (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "OPEN FOR TENDER",
+          "Version": "2.0",
+          "Created Date": "2025-10-15",
+          "Last Modified": "2026-01-26",
+          "Review Cycle": "On-Demand",
+          "Next Review Date": "2026-02-28",
+          "Owner": "Tim Moss (Senior Responsible Owner)",
+          "Reviewed By": "[PENDING]",
+          "Approved By": "[PENDING]",
+          "Distribution": "Procurement Team, Architecture Team, Digital Marketplace",
+          "Contracting Authority": "UK Intellectual Property Office (IPO)",
+          "Procurement Framework": "G-Cloud 14 Framework",
+          "Submission Deadline": "2025-11-30 17:00 GMT",
+          "Contract Award Date": "2026-01-15",
+          "Contract Start Date": "2026-02-01",
+          "Total": "| **100%**",
+          "Technical": "Technology incompatibility, performance issues",
+          "Security": "Data breach, vulnerability",
+          "Integration": "EPO/WIPO API failures",
+          "Schedule": "Delivery delays",
+          "Resource": "Key personnel turnover",
+          "Compliance": "GDPR breach, accessibility failure",
+          "Data Migration": "Data loss, corruption",
+          "Solution Architecture": "8",
+          "Security Architecture": "6",
+          "Integration Strategy": "4",
+          "Data Migration & Digitization": "3",
+          "Accessibility": "2",
+          "Innovation": "2",
+          "Agile Practices": "3",
+          "Quality Assurance": "3",
+          "DevSecOps Maturity": "2",
+          "Risk Management": "2",
+          "Team Structure": "3",
+          "Key Personnel Experience": "8",
+          "Knowledge Transfer": "2",
+          "Team Availability": "2",
+          "Relevant Case Studies": "6",
+          "Reference Quality": "4",
+          "M0: Contract Signature": "Signed contract, project kick-off",
+          "M1: Requirements Review Gate": "Requirements review document, user stories, service blueprint, Gate 1 approval",
+          "M2: High-Level Design Gate": "HLD document, C4 diagrams, API specs, threat model, Gate 2 approval",
+          "M3: Detailed Design Gate": "DLD document, database schemas, API contracts, Gate 3 approval",
+          "M4: Alpha Phase Complete": "Working Alpha prototype, user research findings, technical feasibility proven",
+          "M5: Private Beta Launch": "Private Beta deployed to limited users (50 examiners, 100 applicants), UAT complete",
+          "M6: Public Beta Launch": "Public Beta with full functionality, load testing passed, ITHC passed, GDS Beta assessment passed",
+          "M7: Production Go-Live": "Production deployment, data migration complete, training complete, Gate 4 approval, GDS Live assessment passed",
+          "M8: Warranty Period End": "90-day hypercare support, defect remediation, performance tuning, final handover",
+          "L1 Support": "15 minutes (business hours)",
+          "L2 Support": "30 minutes",
+          "L3 Support": "2 hours",
+          "Enhancement": "N/A",
+          "ATRS": "Algorithmic Transparency Recording Standard - UK government standard for AI/algorithm transparency",
+          "BPSS": "Baseline Personnel Security Standard - UK security clearance",
+          "CPC": "Cooperative Patent Classification - international patent classification system",
+          "DLD": "Detailed Design Document",
+          "DPIA": "Data Protection Impact Assessment - GDPR requirement",
+          "EPO": "European Patent Office",
+          "GDS": "Government Digital Service - UK government digital transformation agency",
+          "HLD": "High-Level Design Document",
+          "IPC": "International Patent Classification",
+          "ITHC": "IT Health Check - UK government penetration testing standard",
+          "NCSC": "National Cyber Security Centre - UK government cyber security authority",
+          "OCR": "Optical Character Recognition",
+          "OGL": "Open Government Licence",
+          "OPS": "Open Patent Services - EPO API",
+          "PCT": "Patent Cooperation Treaty - WIPO international patent filing treaty",
+          "SC": "Security Clearance - UK government security clearance level",
+          "SIEM": "Security Information and Event Management",
+          "ST.96": "WIPO Standard 96 - XML standard for patent data exchange",
+          "TCoP": "Technology Code of Practice - UK government technology standards",
+          "WCAG": "Web Content Accessibility Guidelines",
+          "WIPO": "World Intellectual Property Organization",
+          "WORM": "Write-Once-Read-Many - immutable storage"
+        },
+        "reqIds": [],
+        "health": {
+          "stale": true,
+          "draft": false,
+          "orphan": false,
+          "ageDays": 295
+        }
       },
       "ARC-001-STKE-v1.0": {
         "type": "STKE",
@@ -767,7 +2582,42 @@
         "status": "DRAFT",
         "severity": "LOW",
         "createdDate": "2026-01-22",
-        "lastModified": "2026-01-26"
+        "lastModified": "2026-01-26",
+        "version": "1.0",
+        "owner": "Enterprise Architecture Team",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-STKE-v2.0",
+          "Document Type": "Stakeholder Drivers & Goals Analysis",
+          "Project": "Patent Management System for IPO (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "2.0",
+          "Created Date": "2026-01-22",
+          "Last Modified": "2026-01-26",
+          "Review Cycle": "Quarterly",
+          "Next Review Date": "2026-04-26",
+          "Owner": "Enterprise Architecture Team",
+          "Reviewed By": "[PENDING]",
+          "Approved By": "[PENDING]",
+          "Distribution": "Project Team, Architecture Team, IPO Executive Team"
+        },
+        "reqIds": [
+          "BR-001",
+          "BR-002",
+          "BR-003",
+          "BR-004",
+          "BR-005",
+          "BR-006"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 295
+        }
       },
       "ARC-001-TCOP-v1.0": {
         "type": "TCOP",
@@ -777,7 +2627,64 @@
         "status": "DRAFT",
         "severity": "HIGH",
         "createdDate": "2025-10-15",
-        "lastModified": "2026-01-26"
+        "lastModified": "2026-01-26",
+        "version": "1.0",
+        "owner": "Dr. Emily Roberts (Enterprise Architect)",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-TCOP-v2.0",
+          "Document Type": "Technology Code of Practice Review",
+          "Project": "Patent Management System for the UK Intellectual Property Office (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "2.0",
+          "Created Date": "2025-10-15",
+          "Last Modified": "2026-01-26",
+          "Review Cycle": "Phase Gate (Alpha/Beta/Live)",
+          "Next Review Date": "2026-03-31",
+          "Owner": "Dr. Emily Roberts (Enterprise Architect)",
+          "Reviewed By": "[PENDING]",
+          "Approved By": "[PENDING]",
+          "Distribution": "Project Team, Architecture Team, Digital Spend Control"
+        },
+        "reqIds": [
+          "BR-004",
+          "NFR-C-004",
+          "NFR-U-003",
+          "BR-006",
+          "BR-005",
+          "FR-008",
+          "FR-001",
+          "INT-003",
+          "INT-002",
+          "INT-001",
+          "BR-003",
+          "NFR-I-001",
+          "BR-002",
+          "NFR-S-001",
+          "NFR-C-002",
+          "NFR-SEC-001",
+          "NFR-SEC-003",
+          "NFR-SEC-002",
+          "NFR-SEC-004",
+          "NFR-C-003",
+          "NFR-C-001",
+          "INT-004",
+          "INT-005",
+          "NFR-M-001",
+          "FR-002",
+          "FR-003",
+          "NFR-P-001",
+          "NFR-S-002"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 295
+        }
       },
       "ARC-001-TRAC-v1.0": {
         "type": "TRAC",
@@ -787,7 +2694,84 @@
         "status": "DRAFT",
         "severity": "HIGH",
         "createdDate": "2026-01-22",
-        "lastModified": "2026-01-26"
+        "lastModified": "2026-01-26",
+        "version": "1.0",
+        "owner": "Dr. Emily Roberts (Enterprise Architect)",
+        "classification": "OFFICIAL",
+        "vendor": null,
+        "subdir": null,
+        "controlFields": {
+          "Document ID": "ARC-001-TRAC-v2.0",
+          "Document Type": "Requirements Traceability Matrix",
+          "Project": "Patent Management System for the UK Intellectual Property Office (Project 001)",
+          "Classification": "OFFICIAL",
+          "Status": "DRAFT",
+          "Version": "2.0",
+          "Created Date": "2026-01-22",
+          "Last Modified": "2026-01-26",
+          "Review Cycle": "Monthly",
+          "Next Review Date": "2026-02-26",
+          "Owner": "Dr. Emily Roberts (Enterprise Architect)",
+          "Reviewed By": "[PENDING]",
+          "Approved By": "[PENDING]",
+          "Distribution": "Project Team, Architecture Team, IPO Executive",
+          "Overall Traceability Score": "15/100",
+          "Requirements with Design Coverage": "0/51 (0%)",
+          "Requirements with Test Coverage": "0/51 (0%)",
+          "Orphan Requirements": "51",
+          "TOTAL": "**51**"
+        },
+        "reqIds": [
+          "BR-001",
+          "BR-002",
+          "BR-003",
+          "BR-004",
+          "BR-005",
+          "BR-006",
+          "FR-001",
+          "FR-002",
+          "FR-003",
+          "FR-004",
+          "FR-005",
+          "FR-006",
+          "FR-007",
+          "FR-008",
+          "NFR-P-001",
+          "NFR-P-002",
+          "NFR-A-001",
+          "NFR-A-002",
+          "NFR-A-003",
+          "NFR-S-001",
+          "NFR-S-002",
+          "NFR-SEC-001",
+          "NFR-SEC-002",
+          "NFR-SEC-003",
+          "NFR-SEC-004",
+          "NFR-C-001",
+          "NFR-C-002",
+          "NFR-C-003",
+          "NFR-C-004",
+          "NFR-C-005",
+          "NFR-U-001",
+          "NFR-U-002",
+          "NFR-U-003",
+          "NFR-M-001",
+          "NFR-M-002",
+          "NFR-M-003",
+          "NFR-I-001",
+          "NFR-I-002",
+          "INT-001",
+          "INT-002",
+          "INT-003",
+          "INT-004",
+          "INT-005"
+        ],
+        "health": {
+          "stale": true,
+          "draft": true,
+          "orphan": false,
+          "ageDays": 295
+        }
       },
       "ARC-001-WARD-001-v1.0": {
         "type": "WARD",
@@ -797,7 +2781,272 @@
         "status": "",
         "severity": "MEDIUM",
         "createdDate": null,
-        "lastModified": null
+        "lastModified": null,
+        "version": "1.0",
+        "owner": "",
+        "classification": "",
+        "vendor": null,
+        "subdir": "wardley-maps",
+        "controlFields": {
+          "Patent Classification (ML)": "0.35",
+          "Legacy PMS Integration": "0.35",
+          "Examination Workflow": "0.38",
+          "Semantic Prior Art Search": "0.42",
+          "WIPO Integration (ST.96)": "0.45",
+          "Application Intake": "0.42",
+          "IP5 Data Exchange": "0.52",
+          "OCR Engine": "0.72",
+          "GOV.UK Verify": "0.68",
+          "Chemical Structure Search": "0.68",
+          "EPO OPS Integration": "0.68",
+          "Authentication (MFA)": "0.68",
+          "GOV.UK Design System": "0.75",
+          "Publication Engine": "0.58",
+          "Renewal Management": "0.55",
+          "Authorization (RBAC)": "0.62",
+          "Data Warehouse": "0.75",
+          "Event Streaming": "0.72",
+          "GOV.UK Pay": "0.90",
+          "GOV.UK Notify": "0.92",
+          "AWS EC2/EKS": "0.95",
+          "PostgreSQL (RDS)": "0.92",
+          "Redis (ElastiCache)": "0.90",
+          "S3 Object Storage": "0.95",
+          "CloudFront CDN": "0.95",
+          "CloudWatch Monitoring": "0.88",
+          "OpenSearch": "0.85",
+          "Terraform IaC": "0.80",
+          "UC-001": "Patent Applicants (User)",
+          "UC-002": "Patent Examiners (User)",
+          "UC-003": "Public Users (User)",
+          "C-001": "Patent Filing Service",
+          "C-002": "Patent Search Service",
+          "C-003": "Examiner Dashboard",
+          "C-004": "Public Portal",
+          "C-005": "API Gateway",
+          "C-006": "Application Intake",
+          "C-007": "Patent Classification (ML)",
+          "C-008": "Prior Art Search",
+          "C-009": "Examination Workflow",
+          "C-010": "Publication Engine",
+          "C-011": "Renewal Management",
+          "C-012": "OCR Engine",
+          "C-013": "ML Classification Model",
+          "C-014": "Semantic Search Engine",
+          "C-015": "Chemical Structure Search",
+          "C-016": "Document Storage",
+          "C-017": "Authentication",
+          "C-018": "Authorization (RBAC)",
+          "C-019": "Audit Logging",
+          "C-020": "WIPO Integration (ST.96)",
+          "C-021": "EPO Integration (OPS API)",
+          "C-022": "IP5 Data Exchange",
+          "C-023": "Legacy PMS Integration",
+          "C-024": "Data Warehouse",
+          "C-025": "Event Streaming",
+          "C-026": "Application Runtime (EKS)",
+          "C-027": "Database (PostgreSQL RDS)",
+          "C-028": "Cache (Redis)",
+          "C-029": "Search Index (OpenSearch)",
+          "C-030": "Object Storage (S3)",
+          "C-031": "CDN (CloudFront)",
+          "C-032": "Monitoring",
+          "C-033": "IaC (Terraform)",
+          "C-034": "GOV.UK Design System",
+          "C-035": "GOV.UK Notify",
+          "C-036": "GOV.UK Pay",
+          "C-037": "GOV.UK Verify",
+          "BUILD (Custom)": "12 components",
+          "BUY (G-Cloud 14)": "11 components",
+          "REUSE (GOV.UK)": "4 components",
+          "COMMODITY (AWS)": "10 components",
+          "TOTAL": "37 components",
+          "Evolution Stage": "30%",
+          "Competitive Advantage": "25%",
+          "Domain Specificity": "20%",
+          "Vendor Availability": "15%",
+          "Total Cost of Ownership": "10%",
+          "Examiner Dashboard": "0.38",
+          "Patent Filing Service": "0.52",
+          "Patent Search Service": "0.48",
+          "Prior Art Search": "0.42",
+          "ML Classification Model": "0.35",
+          "API Gateway": "0.82",
+          "Public Portal": "0.68",
+          "AWS EKS (Kubernetes)": "0.95",
+          "CloudWatch": "0.88",
+          "Legacy PMS": "0.35",
+          "Examiner Workflows": "0.38",
+          "On-Premise Infrastructure": "0.60",
+          "Manual Patent Classification": "0.30",
+          "Paper-Based Processes": "0.25",
+          "WIPO ST.96 Adoption": "0.45",
+          "Procurement Bureaucracy": "0.50",
+          "Regulatory": "UK Patent Rules 2007 mandate paper filing option; legal signatures required for some documents",
+          "Skills Gap": "IPO IT team lacks ML/AI expertise; limited Kubernetes experience; legacy COBOL knowledge concentrated in 3 staff near retirement",
+          "Budget Constraints": "£7M budget fixed; HMT requires business case approval for >10% variance; contingency only 15% (£1.05M)",
+          "Security Clearance": "All personnel need BPSS minimum; OFFICIAL-SENSITIVE access needs SC clearance; vendor staff clearance takes 3-6 months",
+          "International Dependencies": "WIPO ST.96 timeline; EPO OPS API changes; IP5 offices vary in API maturity",
+          "GDS Service Assessment": "Public beta requires GDS Service Assessment (16 criteria); failure blocks go-live",
+          "Data Migration": "3M published patents; 500K unpublished applications; 40 years of examination history; data quality issues (duplicates, encoding errors)",
+          "ML Patent Classification": "0.35",
+          "WIPO ST.96 Integration": "0.45",
+          "GOV.UK Verify → GOV.UK One Login": "0.68",
+          "Kubernetes (EKS)": "0.95",
+          "AWS S3": "0.95",
+          "PostgreSQL": "0.92",
+          "Large Language Models (GPT-4, Claude)": "0.35 (Custom)",
+          "Blockchain for Patent Provenance": "0.20 (Genesis)",
+          "Quantum Computing for Prior Art Search": "0.10 (Genesis)",
+          "GOV.UK One Login": "0.60 (Product)",
+          "No-Code/Low-Code Platforms": "0.55 (Product)",
+          "1. Define user needs": "User needs at top of map (0.95 visibility): Patent Applicants, Examiners, Public Users",
+          "2. Make things accessible": "WCAG 2.2 AA mandatory; GOV.UK Design System (0.75) reused",
+          "3. Be open and use open standards": "WIPO ST.96 XML (0.45), EPO OPS REST (0.68), OpenAPI 3.0 for APIs",
+          "4. Make use of open source": "PostgreSQL (0.92), Redis (0.90), Kafka (0.72), Terraform (0.80), OPA (0.62)",
+          "5. Use cloud first": "AWS GovCloud UK (0.95); 100% cloud deployment; no on-premise infrastructure",
+          "6. Make things secure": "OFFICIAL-SENSITIVE controls; Cyber Essentials Plus (MQ-5); ISO 27001 (MQ-6); STRIDE threat model",
+          "7. Make privacy integral": "GDPR compliance; Data Protection Officer oversight; privacy by design; UK data residency",
+          "8. Share, reuse and collaborate": "GOV.UK Pay (0.90), Notify (0.92), Design System (0.75), Verify (0.68) reused; £570K savings",
+          "9. Integrate and adapt technology": "API-first architecture; OpenAPI 3.0; WIPO ST.96 XML; EPO OPS REST; microservices on Kubernetes",
+          "10. Make better use of data": "Open data portal (3M published patents); patent analytics; ML training data (10M classifications)",
+          "11. Define your purchasing strategy": "**THIS WARDLEY MAP**: Build vs Buy analysis; G-Cloud 14 procurement; 62% buy/reuse, 38% build",
+          "12. Meet the Digital Service Standard": "GDS Service Assessment planned (Month 15); public beta; alpha with 10 users; GOV.UK Design System",
+          "13. Use common technology platforms": "GOV.UK platforms (Pay, Notify, Design System, Verify/One Login); GDS standards; government cloud (AWS GovCloud)",
+          "1. Understand users and their needs": "Patent Applicants (0.85), Patent Examiners (0.75), Public Users (0.65)",
+          "2. Solve a whole problem for users": "End-to-end patent journey: Filing (0.52) → Classification (0.35) → Examination (0.38) → Publication (0.58) → Renewal (0.55)",
+          "3. Provide a joined up experience": "API Gateway (0.82) integrates all services; GOV.UK Design System (0.75) for consistent UI",
+          "4. Make the service simple to use": "GOV.UK Design System (0.75); Public Portal (0.68); WCAG 2.2 AA accessibility",
+          "5. Make sure everyone can use the service": "WCAG 2.2 AA compliance; manual accessibility testing; IAAP-certified specialists",
+          "6. Have a multidisciplinary team": "Evaluation team: Enterprise Architect, CISO, Product Owner, Accessibility Specialist, Domain Architect",
+          "7. Use agile ways of working": "Agile delivery methodology scored (10 points); sprints, retrospectives, continuous deployment",
+          "8. Iterate and improve frequently": "Alpha (Month 6), Private Beta (Month 12), Public Beta (Month 15), Live (Month 18)",
+          "9. Create a secure service": "Authentication (0.68), Authorization (0.62), Audit Logging (0.85), STRIDE threat model",
+          "10. Define success metrics": "BR-001 (18→12 months), BR-002 (£2M savings), BR-003 (95% satisfaction), BR-004 (99.5% uptime)",
+          "11. Choose the right tools and technology": "**THIS WARDLEY MAP**: Evolution-based tool selection; buy products, reuse GOV.UK services, build custom only when necessary",
+          "12. Make new source code open": "Open-source by default; IPO GitHub organization; MIT/Apache 2.0 licenses",
+          "13. Use common platforms": "GOV.UK Pay (0.90), Notify (0.92), Design System (0.75), Verify/One Login (0.68)",
+          "14. Operate a reliable service": "Monitoring (0.88), Audit Logging (0.85), Multi-AZ AWS (0.95), RTO 4h, RPO 1h",
+          "15. Support a culture of learning": "Alpha/beta feedback loops; retrospectives; blameless post-mortems",
+          "16. Make your service supportable": "Documentation, runbooks, training materials for IPO operations team",
+          "17. Explain what data is collected": "Privacy policy, DPIA, Data Protection Officer oversight, GDPR compliance",
+          "18. Make your service work with any device": "Responsive design (GOV.UK Design System); mobile-first; supports assistive technologies",
+          "Genesis (0.00-0.25)": "DO NOT PROCURE via G-Cloud; build in-house R&D; no vendors available",
+          "Custom (0.25-0.50)": "BUILD in-house; no suitable G-Cloud vendors; IPO-specific requirements",
+          "Product (0.50-0.75)": "BUY via G-Cloud 14 Direct Award (<£100K per service) or Further Competition (>£100K); multiple vendors available",
+          "Commodity (0.75-1.00)": "USE AWS GovCloud UK (pre-approved); reuse GOV.UK services (free); commodity procurement",
+          "Legacy Integration Required First": "Application Intake (0.42)",
+          "ML Model Training Before Classification": "Patent Classification (0.35)",
+          "GOV.UK Pay for Payments": "Patent Filing Service (0.52), Renewal Management (0.55)",
+          "Authentication Before Any Service": "All user-facing services (Filing 0.52, Dashboard 0.38, Portal 0.68)",
+          "AWS Infrastructure Before Apps": "All application services",
+          "WIPO Integration for International Filing": "Application Intake (0.42), Patent Classification (0.35), Publication Engine (0.58)",
+          "GOV.UK Design System for UI": "Public Portal (0.68), Patent Filing Service (0.52)",
+          "GOV.UK Services Bundle": "GOV.UK Pay (0.90), GOV.UK Notify (0.92), GOV.UK Design System (0.75), GOV.UK Verify (0.68)",
+          "AWS Managed Services Bundle": "EKS (0.95), RDS (0.92), ElastiCache (0.90), OpenSearch (0.85), S3 (0.95), CloudFront (0.95), CloudWatch (0.88)",
+          "Patent ML/AI Bundle": "ML Classification Model (0.35), Semantic Search Engine (0.42), Patent Classification (0.35), Prior Art Search (0.42)",
+          "International Integration Bundle": "WIPO Integration (0.45), EPO Integration (0.68), IP5 Data Exchange (0.52)",
+          "Security & Compliance Bundle": "Authentication (0.68), Authorization (0.62), Audit Logging (0.85), STRIDE threat model",
+          "Build World-Class Patent ML": "ML Classification (0.35 Custom) gives IPO competitive advantage over other patent offices; USPTO/EPO have <90% accuracy; IPO targets 95%",
+          "Open-Source Patent Tools": "WIPO Integration (0.45), Semantic Search (0.42) built custom; open-source on GitHub to accelerate evolution to Product stage (0.65+); other patent offices adopt IPO code",
+          "GOV.UK Patent Platform": "IPO creates reusable \"patent platform\" (classification + search + workflow) for other UK IP rights (trademarks, designs); leverages Custom components (0.35-0.42)",
+          "Patent API Marketplace": "Public API (0.82 Product) monetized via premium tiers (bulk data, real-time updates); create developer ecosystem; £200K/year revenue",
+          "Avoid Vendor Lock-In": "BUY components (0.50-0.75) have lock-in risk; use open APIs, avoid proprietary formats; multi-cloud strategy (Terraform)",
+          "Containerize All Apps": "Kubernetes (0.95 Commodity) enables portability; avoid AWS-specific services where possible (Lambda, DynamoDB); use PostgreSQL (0.92) not Aurora",
+          "Dual GOV.UK Services": "GOV.UK Pay (0.90) and Notify (0.92) are free but have SLA risk; implement failover to commercial alternatives (Stripe, Twilio)",
+          "Legacy PMS Decommissioning": "Legacy Integration (0.35 Custom) is technical debt; plan decommissioning by 2027 to avoid ongoing maintenance (£200K/year)",
+          "ML Model Bias Audits": "ML Classification (0.35) may have bias (gender, race in inventor names; country of origin); legal risk if biased classifications delay certain applications",
+          "Patent API Developer Portal": "Public API (0.82 Product) creates developer ecosystem; encourage UK startups to build patent analytics, IP management tools",
+          "ML Model Marketplace": "IPO-trained ML models (Classification 0.35, Semantic Search 0.42) licensed to other patent offices, law firms, IP consultancies",
+          "WIPO ST.96 Reference Implementation": "IPO open-sources WIPO Integration (0.45) as reference implementation; other patent offices adopt; IPO influences WIPO standard evolution",
+          "TR-001": "Legacy PMS integration fails; 40-year-old system has undocumented interfaces, batch-only, COBOL codebase",
+          "TR-002": "ML classification accuracy <95%; model doesn't understand patent language nuances, technical terminology",
+          "TR-003": "WIPO ST.96 integration delays; WIPO standard evolving, IPO-to-WIPO mappings complex, international coordination slow",
+          "TR-004": "Semantic search doesn't understand patent claims; search results irrelevant; examiners lose trust; revert to keyword search",
+          "TR-005": "AWS GovCloud UK outage; eu-west-2 region failure; patent services unavailable for >4 hours (breaches NFR-001 RTO)",
+          "TR-006": "Chemical structure search (PerkinElmer ChemDraw) doesn't integrate with patent database; proprietary formats",
+          "TR-007": "OCR accuracy <98%; handwritten patent applications, poor scan quality, chemical formulas unrecognized",
+          "SR-001": "ML classification (0.35 Custom) commoditized by vendors (Clarivate, PatSnap) within 3 years; IPO £980K investment obsolete",
+          "SR-002": "Semantic search (0.42 Custom) becomes Product stage (0.65); Google Patents, Microsoft Academic provide free patent semantic search",
+          "SR-003": "GOV.UK Verify (0.68) decommissioned by GDS; replaced by GOV.UK One Login; IPO must migrate authentication",
+          "SR-004": "G-Cloud 14 vendors increase prices post-contract (lock-in); OCR, chemical search licensing costs double",
+          "SR-005": "UK Government budget cuts; IPO £7M project reduced to £5M; scope cut required; technical debt incurred",
+          "SR-006": "Patent examination automation (AI) eliminates examiner jobs; industrial action; project blocked by unions",
+          "PR-001": "Vendor proposals don't meet mandatory qualifications (MQ-1 to MQ-28); <3 qualified vendors; insufficient competition",
+          "PR-002": "Vendor fails security clearance (BPSS, SC); cannot access OFFICIAL-SENSITIVE patent data; project delayed 3-6 months",
+          "PR-003": "Vendor goes bankrupt mid-project; code/IP lost; re-procurement required; 6-month delay",
+          "PR-004": "Procurement timeline overruns; G-Cloud 14 call-off takes 6 months instead of 2 months; vendor onboarding delayed",
+          "PR-005": "Vendor proposal costs exceed £7M budget; lowest bidder is £9M; budget overrun or scope cut required",
+          "BR-001": "Reduce patent examination time from 18 to 12 months (33% improvement)",
+          "BR-002": "Achieve £2M annual cost savings through cloud modernization and automation",
+          "BR-003": "95% user satisfaction (examiners, applicants, public)",
+          "BR-004": "99.5% system uptime (3M published patents, 50K applications/year, public access)",
+          "BR-005": "Open data: Publish 3M patents via public API (non-OFFICIAL data only)",
+          "BR-006": "International integration: WIPO (PCT), EPO (patent data exchange), IP5 (bilateral data sharing)",
+          "FR-001": "Patent application intake: digital forms, PDF upload, fee payment, filing date determination",
+          "FR-002": "Automatic patent classification using ML (CPC/IPC codes; 10,000 classes; 95% accuracy target)",
+          "FR-003": "Semantic prior art search across 3M published patents (keyword, classification, semantic similarity)",
+          "FR-004": "Examiner workflow: assign applications, conduct prior art search, write examination reports, issue objections, approve/reject",
+          "FR-005": "Patent publication: generate PDF/HTML, publish to public portal, notify applicants, export to WIPO/EPO",
+          "FR-006": "Renewal management: calculate renewal fees, send reminders, process payments, update patent status",
+          "FR-007": "Chemical structure search for pharmaceutical/chemistry patents (substructure, similarity search)",
+          "FR-008": "Public patent search: keyword, classification, applicant, inventor, filing date; results ranked by relevance",
+          "FR-009": "API for patent data: RESTful API, OpenAPI 3.0, rate limiting, authentication, bulk data download",
+          "FR-010": "Legacy PMS integration: batch data sync, bi-directional updates, data migration, parallel running (6 months)",
+          "NFR-001": "Performance: <3s page load, <500ms API response, 99.5% uptime, 4h RTO, 1h RPO",
+          "NFR-002": "Security: OFFICIAL-SENSITIVE controls, Cyber Essentials Plus, ISO 27001, STRIDE threat model, ITHC penetration testing",
+          "NFR-003": "Accessibility: WCAG 2.2 Level AA compliance, manual testing, IAAP-certified specialists, GOV.UK Design System",
+          "NFR-004": "Scalability: Support 50K applications/year, 200 concurrent examiners, 10K concurrent public users, 3M published patents",
+          "NFR-005": "Data Sovereignty: All data stored in UK (AWS eu-west-2 London region); GDPR compliance; DPO oversight",
+          "NFR-006": "Observability: Metrics (Prometheus), Logs (ELK/CloudWatch), Traces (OpenTelemetry), Dashboards (Grafana), Alerts",
+          "Start Legacy PMS Integration": "Legacy Integration (0.35 Custom) is critical path blocker; 6-month integration window required",
+          "Deploy AWS Infrastructure (IaC)": "AWS (0.95 Commodity) is foundation for all services; Terraform IaC (0.80 Product) enables infrastructure-as-code",
+          "Integrate GOV.UK Pay & Notify": "GOV.UK services (0.90-0.92 Commodity) are free, mature; low integration effort (2 weeks each); £350K savings vs custom build",
+          "Implement Authentication (Auth0)": "Authentication (0.68 Product) is dependency for all user-facing services; security critical (OFFICIAL-SENSITIVE); 4-week integration",
+          "Start ML Model Training": "ML Classification (0.35 Custom) requires 6-month training; must complete by Month 6 for alpha launch; train in parallel with service development",
+          "Procure OCR Engine (ABBYY)": "OCR (0.72 Product) required for application intake (C-006); G-Cloud 14 Direct Award (<£100K); 98% accuracy requirement",
+          "Engage WIPO Liaison Officer": "WIPO Integration (0.45 Custom) has international dependencies; ST.96 XML coordination required; mitigate TR-003 risk",
+          "Launch Alpha (10 examiners)": "GDS Service Standard requires alpha phase; validate ML classification (0.35), semantic search (0.42), examination workflow (0.38) with real users",
+          "Complete WIPO ST.96 Integration": "WIPO Integration (0.45 Custom) unblocks PCT applications (30% of intake); BR-006 international integration requirement",
+          "Procure Chemical Structure Search": "Chemical Structure Search (0.68 Product) required for pharmaceutical/chemistry patents; G-Cloud 14 Further Competition (>£100K); evaluate PerkinElmer vs InfoChem",
+          "Integrate EPO OPS API": "EPO Integration (0.68 Product) required for European patent data exchange; commercial wrapper (Darts-ip) reduces development effort",
+          "Launch Private Beta (50 examiners)": "GDS Service Standard requires private beta; scale from alpha (10 users) to beta (50 users); validate performance (NFR-001) and security (NFR-002) at scale",
+          "Launch Public Beta + GDS Assessment": "GDS Service Standard Point 12 requires GDS Service Assessment before live; public beta with real users; GOV.UK Design System (0.75) de-risks assessment",
+          "Live Launch + Legacy Decommissioning": "New PMS replaces legacy system; legacy integration (0.35 Custom) decommissioned by 2027 to avoid £200K/year maintenance; parallel running ends",
+          "Evaluate ML Commoditization (2028)": "ML Classification (0.35 Custom) may be commoditized by commercial vendors (Clarivate, PatSnap) by 2028; monitor SR-001 risk; plan migration to product",
+          "Migrate to GOV.UK One Login": "GOV.UK Verify (0.68) replaced by GOV.UK One Login (0.85 Commodity) by 2026; GDS mandates migration; £50K integration cost",
+          "Open-Source Patent Tools (GitHub)": "WIPO Integration (0.45), Semantic Search (0.42) open-sourced to accelerate evolution to Product stage (0.65+); TCoP Point 4 (Open Source) compliance"
+        },
+        "reqIds": [
+          "BR-001",
+          "BR-004",
+          "NFR-001",
+          "BR-002",
+          "BR-003",
+          "BR-005",
+          "BR-006",
+          "FR-001",
+          "FR-002",
+          "FR-003",
+          "FR-004",
+          "FR-005",
+          "FR-006",
+          "FR-007",
+          "FR-008",
+          "FR-009",
+          "FR-010",
+          "NFR-002",
+          "NFR-003",
+          "NFR-004",
+          "NFR-005",
+          "NFR-006"
+        ],
+        "health": {
+          "stale": false,
+          "draft": false,
+          "orphan": true,
+          "ageDays": null
+        }
       }
     },
     "edges": [
@@ -835,6 +3084,206 @@
         "from": "ARC-001-ANAL-v1.0",
         "to": "ARC-001-TRAC",
         "type": "references"
+      }
+    ]
+  },
+  "projectHealth": {
+    "baseline": "2026-11-17T10:08:56.145Z",
+    "staleThresholdDays": 90,
+    "essentialTypes": [
+      {
+        "type": "REQ",
+        "tier": 1,
+        "command": "/arckit:requirements",
+        "label": "Requirements"
+      },
+      {
+        "type": "STKE",
+        "tier": 1,
+        "command": "/arckit:stakeholders",
+        "label": "Stakeholder Analysis"
+      },
+      {
+        "type": "RISK",
+        "tier": 1,
+        "command": "/arckit:risk",
+        "label": "Risk Register"
+      },
+      {
+        "type": "SOBC",
+        "tier": 2,
+        "command": "/arckit:sobc",
+        "label": "Strategic Outline Business Case"
+      },
+      {
+        "type": "ADR",
+        "tier": 3,
+        "command": "/arckit:adr",
+        "label": "Architecture Decision Record"
+      },
+      {
+        "type": "HLDR",
+        "tier": 3,
+        "command": "/arckit:hld-review",
+        "label": "High-Level Design Review"
+      },
+      {
+        "type": "TRAC",
+        "tier": 4,
+        "command": "/arckit:traceability",
+        "label": "Traceability Matrix"
+      },
+      {
+        "type": "CONF",
+        "tier": 4,
+        "command": "/arckit:conformance",
+        "label": "Conformance Assessment"
+      }
+    ],
+    "highSeverityTypes": [
+      "TCOP",
+      "SECD",
+      "SECD-MOD",
+      "DPIA",
+      "SVCASS",
+      "RISK",
+      "TRAC",
+      "CONF",
+      "PRIN-COMP",
+      "AIPB",
+      "ATRS",
+      "JSP936"
+    ],
+    "projects": [
+      {
+        "project": "001-patent-management-system-for-the-intellectual-property-office",
+        "projectId": "001",
+        "artifactCount": 8,
+        "edgeCount": 7,
+        "density": 0.88,
+        "coverage": {
+          "essentialPresent": [
+            "REQ",
+            "STKE",
+            "TRAC"
+          ],
+          "essentialMissing": [
+            {
+              "type": "RISK",
+              "command": "/arckit:risk",
+              "label": "Risk Register",
+              "tier": 1
+            },
+            {
+              "type": "SOBC",
+              "command": "/arckit:sobc",
+              "label": "Strategic Outline Business Case",
+              "tier": 2
+            },
+            {
+              "type": "ADR",
+              "command": "/arckit:adr",
+              "label": "Architecture Decision Record",
+              "tier": 3
+            },
+            {
+              "type": "HLDR",
+              "command": "/arckit:hld-review",
+              "label": "High-Level Design Review",
+              "tier": 3
+            },
+            {
+              "type": "CONF",
+              "command": "/arckit:conformance",
+              "label": "Conformance Assessment",
+              "tier": 4
+            }
+          ],
+          "essentialPct": 38,
+          "presentTypes": [
+            "ANAL",
+            "EVAL",
+            "REQ",
+            "SOW",
+            "STKE",
+            "TCOP",
+            "TRAC",
+            "WARD"
+          ],
+          "presentByCategory": {
+            "Governance": 2,
+            "Procurement": 2,
+            "Discovery": 2,
+            "Compliance": 1,
+            "Architecture": 1
+          }
+        },
+        "compliance": {
+          "presentHigh": [
+            "TCOP",
+            "TRAC"
+          ],
+          "missingHigh": [
+            "SECD",
+            "SECD-MOD",
+            "DPIA",
+            "SVCASS",
+            "RISK",
+            "CONF",
+            "PRIN-COMP",
+            "AIPB",
+            "ATRS",
+            "JSP936"
+          ],
+          "pct": 17,
+          "total": 12
+        },
+        "health": {
+          "stale": 7,
+          "draft": 6,
+          "orphan": 1
+        },
+        "contextualSuggestions": [
+          {
+            "command": "/arckit:dpia",
+            "type": "DPIA",
+            "trigger": "processing personal data"
+          },
+          {
+            "command": "/arckit:secure",
+            "type": "SECD",
+            "trigger": "security-sensitive system"
+          },
+          {
+            "command": "/arckit:data-model",
+            "type": "DATA",
+            "trigger": "DR-* requirements present"
+          }
+        ],
+        "hasGlobalPrin": true,
+        "recommendations": [
+          {
+            "command": "/arckit:risk",
+            "label": "Risk Register",
+            "type": "RISK",
+            "tier": 1,
+            "reason": "Tier 1 essential missing"
+          },
+          {
+            "command": "/arckit:sobc",
+            "label": "Strategic Outline Business Case",
+            "type": "SOBC",
+            "tier": 2,
+            "reason": "Tier 2 essential missing"
+          },
+          {
+            "command": "/arckit:adr",
+            "label": "Architecture Decision Record",
+            "type": "ADR",
+            "tier": 3,
+            "reason": "Tier 3 essential missing"
+          }
+        ]
       }
     ]
   }
